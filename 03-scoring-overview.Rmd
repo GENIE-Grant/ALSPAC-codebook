@@ -1,0 +1,5 @@
+# Scoring 
+
+Data cleaning and scoring procedures were completed primarily with the `scorekeeper` R package.
+
+

@@ -1,0 +1,28 @@
+
+# Introduction
+
+Driven exercise (DEx) is a common, debilitating symptom across eating disorders (ED). Up to 40% of individuals with bulimia nervosa and 80% of those with anorexia nervosa experience driven exercise. Driven exercise relates to high levels of ED symptoms and poor ED treatment outcomes, and has been purported to be an early ED symptom via retrospective reports.
+
+A previous study examined exercise for weight loss and driven exercise at age 14 in the ALSPAC cohort, identifying whether groups at age 14 were associated with ED behaviors at ages 14 and 16 [@schaumbergProspectiveAssociationsDriven2022]. Results found that both exercise for weight loss and driven exercise groups at age 14 were demonstrated higher levels of other ED behaviors (binge eating, fasting, purging) at age 16.
+
+In the current line of research, we are extend a longitudinal investigation of exercise for weight loss and driven exercise across a larger developmental window (ages 14-24) in the ALSPAC Cohort.
+
+Aims of the research include:
+
+```{r, echo = FALSE, message = FALSE}
+
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+aims_tbl <- data.frame(
+  Aim = c("1", "2", "3"),
+  Goal = c("Identify and characterize the physical activity trajectories from late childhood through emerging adulthood in ALSPAC and capture associations with driven exercise and eating disorder risk.", "Determine the strength of DEx as a predictor of eating disorder pathology", "Demonstrate the influence of genomic risk factors on DEx"),
+  Hypothesis = c("High levels of activity in childhood and early adolescence will associate with both DEx and ED risk in adolescence", "DEx will present early in the course of EDs, with peak age of onset in early-to-mid adolescence, and will predict ED onset and maintenance beyond other risk factors (e.g. dieting, thin-deal internalization)", "'Anthropometric/Activity' and 'Compulsivity' genomic risk factors will be identified and will predict DEx" )
+)
+
+knitr::kable(aims_tbl) %>% 
+    kable_paper(full_width = F) %>% 
+    column_spec(1, bold = T, border_right = T) %>% 
+    column_spec(2, background = 'gray', color = 'white')
+```

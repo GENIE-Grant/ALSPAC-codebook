@@ -1,0 +1,13 @@
+# Anthropometric Variables
+
+Anthropometric variables were collected and/or reported at several time points during development. The following time points are avaialble in this project.
+
+```{r}
+#insert table with anthropometric variables and timepoints assessed
+```
+
+
+## Body Mass Index (BMI)
+
+## DEXA Scans
+

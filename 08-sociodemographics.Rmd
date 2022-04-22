@@ -1,0 +1,9 @@
+# Sociodemographic Variables
+
+## Parent Education
+
+## Parent Occupational Class
+
+## Child Ethnicity
+
+## Parent Ethnicity

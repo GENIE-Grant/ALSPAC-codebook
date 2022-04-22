@@ -1,0 +1,26 @@
+# Eating Disorder Cognitions 
+
+Eating disorder cognitions were assessed at an in-depth level at age 14 years, with some additional eating disorder cognition variables assessed at other time points. 
+
+```{r}
+#insert table here with constructs, ages, and checkmarks
+```
+
+
+## Dieting
+
+### Background
+
+Dieting was assessed at ages 14 and 16 years
+
+the dieting at age 14 questionare is a set of two questions asked as a part of the ALSPAC study. Data from these questions has been used in multiple studies...(insert links). The two questions asked aim to learn the extent of dieting a respondent has taken part in. The first question aims to find the frequency of dieting and the second question asks about the length of diets in the past year.
+
+### Scoring
+
+
+### Key Variables
+
+
+## Thin-ideal Internalization 
+
+
