@@ -2,5 +2,5 @@ book_filename: "ALSPAC_bookdown"
 language:
   ui:
     chapter_name: "Chapter "
-delete_merged_file: true
+delete_merged_file: false
 output_dir: 'docs'

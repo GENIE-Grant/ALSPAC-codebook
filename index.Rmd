@@ -4,9 +4,10 @@ author: "Katherine Schaumberg, Max Frank, Sarah Niemi, & the EMBARK Lab"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
+keep_md: true
 documentclass: book
 bibliography: ["ALSPAC_bookdown.bib", "packages.bib"]
-biblio-style: "apalike"
+csl: apa-single-spaced.csl
 link-citations: true
 github-repo: embark-lab/ALSPAC-bookdown
 description: "This book includes general information about the ALSPAC sample and detailed information on measures used and scoring procedures for the project -- 'Driven Exercise in eating disorders - A combined genetic and longitudinal epidemiological investigation' -- funded by K01MH123914"
@@ -14,7 +15,9 @@ description: "This book includes general information about the ALSPAC sample and
 
 # Data Dictionary for ALSPAC data: K01MH123914
 
-This book contains information on data management and scoring for this project. It is hosted and maintained by the [EMBARK Lab](https://embark.psychiatry.wisc.edu)
+This book contains information on data management and scoring for ALSPAC eating disorder and associated variables, maintained by the [EMBARK Lab](https://embark.psychiatry.wisc.edu). This data dictionary is specifically designed for the project - K01MH123914 - "Driven Exercise in Eating Disorders: A Combined Genetic and Longitudinal Epidemiological Investigation. 
+
+Data was obtained from the ALSPAC Cohort [@boydCohortProfileChildren2013; @fraserCohortProfileAvon2013], and represents only variables obtained and cleaned for this project. All raw variables can be found in the larger ALSPAC [data dictionary](http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/). 
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
