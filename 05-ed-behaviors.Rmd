@@ -14,7 +14,7 @@ Binge eating behavior was evaluated using questions derived from the Youth Risk 
 
 [PMID: 26098685](https://pubmed.ncbi.nlm.nih.gov/26098685/)
 
-## Scoresheet
+### Scoresheet
 
 The binge eating scoresheet can be found [here]
 
@@ -34,7 +34,7 @@ To clean the data, the scoresheet:
 
 (7) Renames `binge_sx_sum_split.14` to a simpler name: `binge_severity.14`
 
-## Key Variables
+### Key Variables
 
 `binge_severity.14`(defines the severity of binge eating at age 14 based on number of symptoms)
 
