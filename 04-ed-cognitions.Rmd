@@ -1,6 +1,6 @@
 # Eating Disorder Cognitions 
 
-Eating disorder cognitions were assessed at an in-depth level at age 14 years, with some additional eating disorder cognition variables assessed at other time points. 
+Eating disorder cognitions were assessed in-depth at age 14 years, with some additional eating disorder cognition variables assessed at other time points. 
 
 ```{r}
 #insert table here with constructs, ages, and checkmarks
@@ -23,4 +23,33 @@ the dieting at age 14 questionare is a set of two questions asked as a part of t
 
 ## Thin-ideal Internalization 
 
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Dietary Restraint
+
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Fear of Weight Gain
+
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Body Dissatisfaction
+
+### Background
+
+### Scoring
+
+### Key Variables
 

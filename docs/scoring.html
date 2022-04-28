@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 4 Scoring | Data Dictionary for ALSPAC data: K01MH123914</title>
 <meta name="author" content="Katherine Schaumberg, Max Frank, Sarah Niemi, &amp; the EMBARK Lab">
-<meta name="description" content="Data cleaning and scoring procedures were completed primarily with the scorekeeper R package.">
+<meta name="description" content="Data cleaning and scoring procedures were completed primarily with the scorekeeper R package. The scorekeeper package is available via github installation see package documentation , and also...">
 <meta name="generator" content="bookdown 0.25 with bs4_book()">
 <meta property="og:title" content="Chapter 4 Scoring | Data Dictionary for ALSPAC data: K01MH123914">
 <meta property="og:type" content="book">
-<meta property="og:description" content="Data cleaning and scoring procedures were completed primarily with the scorekeeper R package.">
+<meta property="og:description" content="Data cleaning and scoring procedures were completed primarily with the scorekeeper R package. The scorekeeper package is available via github installation see package documentation , and also...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 4 Scoring | Data Dictionary for ALSPAC data: K01MH123914">
-<meta name="twitter:description" content="Data cleaning and scoring procedures were completed primarily with the scorekeeper R package.">
+<meta name="twitter:description" content="Data cleaning and scoring procedures were completed primarily with the scorekeeper R package. The scorekeeper package is available via github installation see package documentation , and also...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -67,7 +67,7 @@
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html"><span class="header-section-number">1</span> Data Dictionary for ALSPAC data: K01MH123914</a></li>
-<li><a class="" href="aims.html"><span class="header-section-number">2</span> Aims</a></li>
+<li><a class="" href="project-aims.html"><span class="header-section-number">2</span> Project Aims</a></li>
 <li><a class="" href="the-alspac-cohort.html"><span class="header-section-number">3</span> The ALSPAC Cohort</a></li>
 <li><a class="active" href="scoring.html"><span class="header-section-number">4</span> Scoring</a></li>
 <li><a class="" href="eating-disorder-cognitions.html"><span class="header-section-number">5</span> Eating Disorder Cognitions</a></li>
@@ -90,7 +90,12 @@
 <span class="header-section-number">4</span> Scoring<a class="anchor" aria-label="anchor" href="#scoring"><i class="fas fa-link"></i></a>
 </h1>
 <p>Data cleaning and scoring procedures were completed primarily with the <code>scorekeeper</code> R package.</p>
-
+<p>The scorekeeper package is available via github installation <a href="">see package documentation</a> , and also contains an accompanying <a href="">vignette</a> and <a href="">youtube playlist</a> for those getting started with the package.
+Data is scored using scoresheets (.csv files) and an accompanying R script. All scoring described in this data dictionary can be fully replicated by downloading scoresheets from the <a href="">scoresheet repository</a> associated with this project and running the accompanying R script to score data. If you are attempting to replicate our scoring procedures, please ensure the following:</p>
+<ol style="list-style-type: decimal">
+<li><p>You are importing your raw data into R using the <code>haven</code> package, such that raw data types are ‘haven labelled’.</p></li>
+<li><p>Your dataset contains all of the raw variables necessary to complete scoring calculations. If you do not have all raw variables in your dataset, you will need to adjust scoresheets such that raw variables that you do not have are omitted from scoring procedures.</p></li>
+</ol>
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="the-alspac-cohort.html"><span class="header-section-number">3</span> The ALSPAC Cohort</a></div>
@@ -113,7 +118,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Data Dictionary for ALSPAC data: K01MH123914</strong>" was written by Katherine Schaumberg, Max Frank, Sarah Niemi, &amp; the EMBARK Lab. It was last built on 2022-04-26.</p>
+    <p>"<strong>Data Dictionary for ALSPAC data: K01MH123914</strong>" was written by Katherine Schaumberg, Max Frank, Sarah Niemi, &amp; the EMBARK Lab. It was last built on 2022-04-28.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

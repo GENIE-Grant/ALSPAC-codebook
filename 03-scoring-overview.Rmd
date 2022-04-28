@@ -2,4 +2,11 @@
 
 Data cleaning and scoring procedures were completed primarily with the `scorekeeper` R package.
 
+The scorekeeper package is available via github installation [see package documentation]() , and also contains an accompanying [vignette]() and [youtube playlist]() for those getting started with the package. 
+Data is scored using scoresheets (.csv files) and an accompanying R script. All scoring described in this data dictionary can be fully replicated by downloading scoresheets from the [scoresheet repository]() associated with this project and running the accompanying R script to score data. If you are attempting to replicate our scoring procedures, please ensure the following: 
+
+1. You are importing your raw data into R using the `haven` package, such that raw data types are 'haven labelled'.
+
+2. Your dataset contains all of the raw variables necessary to complete scoring calculations. If you do not have all raw variables in your dataset, you will need to adjust scoresheets such that raw variables that you do not have are omitted from scoring procedures.
+
 

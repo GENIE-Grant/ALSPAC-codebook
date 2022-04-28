@@ -7,7 +7,7 @@ output: bookdown::gitbook
 keep_md: true
 documentclass: book
 bibliography: ["ALSPAC_bookdown.bib", "packages.bib"]
-csl: apa-single-spaced.csl
+csl: academic-medicine.csl
 link-citations: true
 github-repo: embark-lab/ALSPAC-bookdown
 description: "This book includes general information about the ALSPAC sample and detailed information on measures used and scoring procedures for the project -- 'Driven Exercise in eating disorders - A combined genetic and longitudinal epidemiological investigation' -- funded by K01MH123914"
@@ -17,7 +17,7 @@ description: "This book includes general information about the ALSPAC sample and
 
 This book contains information on data management and scoring for ALSPAC eating disorder and associated variables, maintained by the [EMBARK Lab](https://embark.psychiatry.wisc.edu). This data dictionary is specifically designed for the project - K01MH123914 - "Driven Exercise in Eating Disorders: A Combined Genetic and Longitudinal Epidemiological Investigation. 
 
-Data was obtained from the ALSPAC Cohort [@boydCohortProfileChildren2013; @fraserCohortProfileAvon2013], and represents only variables obtained and cleaned for this project. All raw variables can be found in the larger ALSPAC [data dictionary](http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/). 
+Data in this dictionary represents only variables obtained and cleaned for this project -- the complete set of raw variables available from the ALSPAC cohort can be found in the larger ALSPAC [data dictionary](http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/). 
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
@@ -28,15 +28,17 @@ knitr::write_bib(c(
 
 <!--chapter:end:index.Rmd-->
 
-# Aims
+# Project Aims
 
-Maladaptive exercise is a serious, concerning, and understudied eating disorder feature associated with: increased risk for suicidal behavior; poor treatment outcome, disorder prognosis, and quality of life; [@adamsExerciseDependenceReview1998; @dallegraveCompulsiveExerciseControl2008] obsessive-compulsive traits and symptoms; [@shroffFeaturesAssociatedExcessive2006; @davisPrevalenceHighlevelExercise1997; @davisAnorexiaNervosaExcessive2006] anxiety [@shroffFeaturesAssociatedExcessive2006; @holtkampContributionAnxietyFood2004]  perfectionism;[@shroffFeaturesAssociatedExcessive2006] body dissatisfaction; [@brewertonComparisonEatingDisorder1995] reward dependence;[@dallegraveCompulsiveExerciseControl2008] dietary restraint;[@dallegraveCompulsiveExerciseControl2008; @holtkampContributionAnxietyFood2004] anhedonia; [@davisSensitivityRewardingEffects2002] and hypoleptinemia [@holtkampElevatedPhysicalActivity2003; @holtkampPhysicalActivityRestlessness2006]. While research on this eating disorder feature is limited, driven exercise has been hypothesized to be both compulsive [] and addictive.35-38 Further, a recent genome-wide association study (GWAS) of AN demonstrated a positive genetic correlation (*r~g~* = .17) with accelerometer-measured PA,39 suggesting that some of the same factors that increase risk for AN are also operative in determining general PA levels. Overall, existing research points towards compulsivity and general propensity to exercise as potential risk factors for DEx. At present, our understanding of the developmental etiology of DEx is poor, and the extent to which this eating disorder feature relates to patterns of PA during development is unknown.
+Maladaptive exercise is a common, debilitating symptom across eating disorders (ED). Up to 40% of individuals with bulimia nervosa and 80% of those with anorexia nervosa experience driven exercise. Driven exercise relates to high levels of ED symptoms and poor ED treatment outcomes, and has been purported to be an early ED symptom via retrospective reports. Among those with EDs, maladaptive exercise is associated with: increased risk for suicidal behavior; poor treatment outcome, disorder prognosis, and quality of life[@adamsExerciseDependenceReview1998; @dallegraveCompulsiveExerciseControl2008] obsessive-compulsive traits and symptoms[@shroffFeaturesAssociatedExcessive2006; @davisPrevalenceHighlevelExercise1997; @davisAnorexiaNervosaExcessive2006]; anxiety[@shroffFeaturesAssociatedExcessive2006; @holtkampContributionAnxietyFood2004]; perfectionism[@shroffFeaturesAssociatedExcessive2006]; body dissatisfaction [@brewertonComparisonEatingDisorder1995]; reward dependence[@dallegraveCompulsiveExerciseControl2008]; dietary restraint[@dallegraveCompulsiveExerciseControl2008; @holtkampContributionAnxietyFood2004]; anhedonia [@davisSensitivityRewardingEffects2002]; and hypoleptinemia [@holtkampElevatedPhysicalActivity2003; @holtkampPhysicalActivityRestlessness2006]. Further, maladaptive exercise has been hypothesized to be both compulsive[@meyerCompulsiveExerciseEating2011] and/or addictive [@cookExerciseAddictionCompulsive2014] in nature. 
 
-Enhanced understanding of DEx is critical as this field grapples with designing appropriate PA interventions for those at risk for, in treatment for, or in remission from EDs. High levels of PA are frequently associated with positive mental and physical health outcomes,17-19 and exercise (planned, structured, repetitive PA)40 is increasingly prescribed as a component of mental health treatment.4 Among individuals with EDs, however, a considerable number of patients present with hyperactivity and the feature of DEx (exercising in a compulsive manner to influence weight and shape35,41,42). DEx is associated with multiple indices of poor outcome and ED complications (e.g. worse disorder prognosis;22,26 higher body dissatisfaction30 and dietary restraint;22,29 hypoleptinemia;32,33 higher rates of suicidal behavior25). Given the high frequency of DEx among those with EDs (\>40% across restrictive-spectrum EDs),22,23 identifying exercise recommendations that support mental and physical health in the context of ED risk and recovery is challenging.43 While recommendations to stop exercise are appropriate under acute conditions related to medical risk, this prescription is not universally useful. Exercise evidences some therapeutic benefit in ED treatment, including preventing loss of bone density, enhancing cognitive functioning, self-regulation, social engagement, and mood regulation, and reducing discomfort during future eating episodes.43-45 As a result of the complex relationship between exercise and EDs, more sophisticated research on this phenotype is needed. At present, we know relatively little about the etiology of DEx, its relationship to premorbid activity levels, or how to manage this symptom. In addition, we do not understand factors that contribute to the substantial variability in PA among those with EDs, and why only a portion of individuals present with DEx. Given the critical need to improve treatment for individuals with EDs, and even more-so for those who engage in DEx,18 improving our understanding of risk for this symptom is paramount.
+Preliminary studies suggest a potential role of genetic factors influencing risk for this eating disorder feature. The most recently published genome-wide association study (GWAS) of AN from the Eating Disorders Workgroup of the Psychiatric Genomics Consortium demonstrated a positive genetic correlation (*r~g~* = .17) with accelerometer-measured PA [@anorexianervosageneticsinitiativeGenomewideAssociationStudy2019], suggesting that some of the same factors that increase risk for AN are also operative in determining general PA levels. Further, preliminary findings examining polygenic prediction of eating disorder symptoms in the ALSPAC cohort supports the assertion that compulsive predisposition may impact the symptom of driven exercise, specifically. When examining obsessive-compulsive disorder (OCD) and anorexia nervosa (AN) polygenic scores, along with a transdiagnostic OCD/AN polygenic score as predictors of a variety of eating disorder and anxiety-related symtpoms in early-to-mid adolescence, driven exercise was the only eating disorder symptom that was positively predicted (at at least one age and gender time point) by all three polygenic scores[@yilmazPredictingEatingDisorder2022]
 
-Driven exercise (DEx) is a common, debilitating symptom across eating disorders (ED). Up to 40% of individuals with bulimia nervosa and 80% of those with anorexia nervosa experience driven exercise. Driven exercise relates to high levels of ED symptoms and poor ED treatment outcomes, and has been purported to be an early ED symptom via retrospective reports.
+Overall, existing research points towards compulsivity and general propensity to exercise as potential risk factors for driven exercise. Further, driven exercise may be an early indicator of high eating disorder risk, as an additional investigation in the ALSPAC cohort found that both exercise for weight loss and driven exercise groups at age 14 were demonstrated higher levels of other ED behaviors (binge eating, fasting, purging) at age 16[@schaumbergProspectiveAssociationsDriven2022].
+  
 
-A previous study examined exercise for weight loss and driven exercise at age 14 in the ALSPAC cohort, identifying whether groups at age 14 were associated with ED behaviors at ages 14 and 16 [@schaumbergProspectiveAssociationsDriven2022]. Results found that both exercise for weight loss and driven exercise groups at age 14 were demonstrated higher levels of other ED behaviors (binge eating, fasting, purging) at age 16.
+Enhanced understanding of driven exercise is critical as the eating disorder field grapples with designing appropriate interventions for those at risk for, in treatment for, or in remission from eating disorders. High levels of physical activity are frequently associated with positive mental and physical health outcomes[@chekroudAssociationPhysicalExercise2018; @vankimVigorousPhysicalActivity2013; @deslandesExerciseMentalHealth2009], and exercise (planned, structured, repetitive PA)[@caspersenPhysicalActivityExercise1985] is increasingly prescribed as a component of mental health treatment. Exercise also evidences some therapeutic benefit in ED treatment, including preventing loss of bone density, enhancing cognitive functioning, self-regulation, social engagement, and mood regulation, and reducing discomfort during future eating episodes[@achamrahPhysicalActivityPatients2016; @hausenblasCanExerciseTreat2008; @calogeroPracticeProcessHealthy2004]. As a result of the complex relationship between exercise and EDs, more sophisticated research on this phenotype is needed. At present, we know relatively little about the etiology of DEx, including potential genetic influences on the symptom, its relationship to premorbid activity levels, or how to manage this symptom. In addition, we do not understand factors that contribute to the substantial variability in physical activity among those with eating disorders, and why only a portion of individuals present with driven exercise. Given the critical need to improve treatment for individuals with eating disorders, and even more-so for those who engage in driven exercise, improving our understanding of risk for this symptom is paramount.
+
 
 In the current line of research, we are extend a longitudinal investigation of exercise for weight loss and driven exercise across a larger developmental window (ages 14-24) in the ALSPAC Cohort.
 
@@ -66,7 +68,17 @@ knitr::kable(aims_tbl) %>%
 
 The ALSPAC Cohort [@boydCohortProfileChildren2013; @fraserCohortProfileAvon2013] was established to understand how genetic and environmental characteristics influence health and development in parents and children. Ethical approval for this study was granted by the ALSPAC Law and Ethics Committee and Local Ethics Committees. All pregnant women living in the geographical area of Avon, United Kingdom, who were expected to deliver between April 1, 1991 and December 31, 1992, were invited to participate in the study. Children from 14,541 pregnancies were enrolled; 13,988 children were alive at 1 year. An additional 913 children were enrolled during subsequent phases of enrollment, with a total sample size alive at 1 year of 14,901. All women gave informed and written consent. Among twin pairs, one twin per pair was randomly excluded from the current study.
 
-A fully searchable ALSPAC data dictionary is available [here](http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/).
+
+```{r}
+## instert figure with N's across relevant time points and ages used for the current study. 
+
+#Physical Activity at 9, 11, 13, and 15 
+
+#BMI across ages
+
+#Eating Disorder Behaviors at 14,16,18, and 24
+```
+
 
 <!--chapter:end:02-cohort-profile.Rmd-->
 
@@ -74,13 +86,20 @@ A fully searchable ALSPAC data dictionary is available [here](http://www.bris.ac
 
 Data cleaning and scoring procedures were completed primarily with the `scorekeeper` R package.
 
+The scorekeeper package is available via github installation [see package documentation]() , and also contains an accompanying [vignette]() and [youtube playlist]() for those getting started with the package. 
+Data is scored using scoresheets (.csv files) and an accompanying R script. All scoring described in this data dictionary can be fully replicated by downloading scoresheets from the [scoresheet repository]() associated with this project and running the accompanying R script to score data. If you are attempting to replicate our scoring procedures, please ensure the following: 
+
+1. You are importing your raw data into R using the `haven` package, such that raw data types are 'haven labelled'.
+
+2. Your dataset contains all of the raw variables necessary to complete scoring calculations. If you do not have all raw variables in your dataset, you will need to adjust scoresheets such that raw variables that you do not have are omitted from scoring procedures.
+
 
 
 <!--chapter:end:03-scoring-overview.Rmd-->
 
 # Eating Disorder Cognitions 
 
-Eating disorder cognitions were assessed at an in-depth level at age 14 years, with some additional eating disorder cognition variables assessed at other time points. 
+Eating disorder cognitions were assessed in-depth at age 14 years, with some additional eating disorder cognition variables assessed at other time points. 
 
 ```{r}
 #insert table here with constructs, ages, and checkmarks
@@ -103,6 +122,35 @@ the dieting at age 14 questionare is a set of two questions asked as a part of t
 
 ## Thin-ideal Internalization 
 
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Dietary Restraint
+
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Fear of Weight Gain
+
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Body Dissatisfaction
+
+### Background
+
+### Scoring
+
+### Key Variables
 
 
 <!--chapter:end:04-ed-cognitions.Rmd-->
@@ -111,21 +159,17 @@ the dieting at age 14 questionare is a set of two questions asked as a part of t
 
 Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24... 
 
+Scoring for eating disorder behaviors is completed with a single scoresheet, `ed_behaviors_scoresheet.csv`, resulting in a data frame which contains all eating disorder behavior variables, titled `ed_behaviors` in the cleaned dataset. 
+
 ## Binge Eating
 
 ### Background
 
-Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [(YBSSR)](https://pubmed.ncbi.nlm.nih.gov/8981266/) at ages 14, 16, 18, and 24. Binge Eating Beahvior in the ALSPAC data at age 14 has previously been scored and examined in several papers. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding charachterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge)
-
-[PMID: 26193063](https://pubmed.ncbi.nlm.nih.gov/26193063/)
-
-[PMID: 33644868](https://pubmed.ncbi.nlm.nih.gov/33644868/)
-
-[PMID: 26098685](https://pubmed.ncbi.nlm.nih.gov/26098685/)
+Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at ages 14, 16, 18, and 24. Questions were adapted to enquire about the previous year [@micaliAdolescentEatingDisorder2015], and have been validated in a sample of adolescents in the Growing Up Today Study [@fieldComparisonSelfreportInterview2004]. Binge Eating Behavior in the ALSPAC data has previously been scored and examined in several papers [@micaliAreObesityRisk2015; @micaliEatingDisorderBehaviours2017; @micaliAdolescentEatingDisorder2015; @schaumbergAnxietyDisorderSymptoms2018; @yilmazPredictingEatingDisorder2022]. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding characterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge)
 
 ### Scoresheet
 
-The binge eating scoresheet can be found [here]
+The binge eating scoresheet can be found [here]()
 
 To clean the data, the scoresheet: 
 
@@ -133,23 +177,33 @@ To clean the data, the scoresheet:
 
 (2) appropriately accounts for the skip patterns in the data (recoding to 'no' follow-up questions for individuals who reported no binge eating)
 
-(3) recodes the variables to sensible frequencies (e.g. changing a 'no' answer to be represented as '0' with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symtpoms for use in symtpom counts.
+(3) recodes the variables to sensible frequencies (e.g. changing a 'no' answer to be represented as '0' with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symptoms for use in symptom counts.
 
-(4) Creates a symptom sum score, which gives a count of the number of binge eating symptoms (0-6) that are present for each individual
+(4) Creates a symptom sum score, which gives a count of the number of binge eating symptoms (0-6) that are present for each individual at ages 14, 16, and 18 years. 
 
 (5) Creates two additional variables based on the sum score. The first variable computes a variable that notes binge eating is present ('1') if an individual reports binge eating at least once per month with more than two additional symptoms. The second splits cases into 'absent', 'mild', and 'severe' based on the number of symptoms reported. The tibble is then filtered to exclude cases with all missing data.
 
-(6) Select only a few columns that will go into the final dataset
-
-(7) Renames `binge_sx_sum_split.14` to a simpler name: `binge_severity.14`
 
 ### Key Variables
 
-`binge_severity.14`(defines the severity of binge eating at age 14 based on number of symptoms)
-
-`binge_present.14`(defines whether diagnostic level binge eating is present or absent)
 
 ## Compensatory Behaviors
+
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Driven Exercise
+
+### Background
+
+### Scoring 
+
+### Key Variables
+
+
 
 
 

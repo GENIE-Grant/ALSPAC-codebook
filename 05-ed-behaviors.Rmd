@@ -2,21 +2,17 @@
 
 Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24... 
 
+Scoring for eating disorder behaviors is completed with a single scoresheet, `ed_behaviors_scoresheet.csv`, resulting in a data frame which contains all eating disorder behavior variables, titled `ed_behaviors` in the cleaned dataset. 
+
 ## Binge Eating
 
 ### Background
 
-Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [(YBSSR)](https://pubmed.ncbi.nlm.nih.gov/8981266/) at ages 14, 16, 18, and 24. Binge Eating Beahvior in the ALSPAC data at age 14 has previously been scored and examined in several papers. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding charachterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge)
-
-[PMID: 26193063](https://pubmed.ncbi.nlm.nih.gov/26193063/)
-
-[PMID: 33644868](https://pubmed.ncbi.nlm.nih.gov/33644868/)
-
-[PMID: 26098685](https://pubmed.ncbi.nlm.nih.gov/26098685/)
+Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at ages 14, 16, 18, and 24. Questions were adapted to enquire about the previous year [@micaliAdolescentEatingDisorder2015], and have been validated in a sample of adolescents in the Growing Up Today Study [@fieldComparisonSelfreportInterview2004]. Binge Eating Behavior in the ALSPAC data has previously been scored and examined in several papers [@micaliAreObesityRisk2015; @micaliEatingDisorderBehaviours2017; @micaliAdolescentEatingDisorder2015; @schaumbergAnxietyDisorderSymptoms2018; @yilmazPredictingEatingDisorder2022]. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding characterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge)
 
 ### Scoresheet
 
-The binge eating scoresheet can be found [here]
+The binge eating scoresheet can be found [here]()
 
 To clean the data, the scoresheet: 
 
@@ -24,22 +20,32 @@ To clean the data, the scoresheet:
 
 (2) appropriately accounts for the skip patterns in the data (recoding to 'no' follow-up questions for individuals who reported no binge eating)
 
-(3) recodes the variables to sensible frequencies (e.g. changing a 'no' answer to be represented as '0' with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symtpoms for use in symtpom counts.
+(3) recodes the variables to sensible frequencies (e.g. changing a 'no' answer to be represented as '0' with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symptoms for use in symptom counts.
 
-(4) Creates a symptom sum score, which gives a count of the number of binge eating symptoms (0-6) that are present for each individual
+(4) Creates a symptom sum score, which gives a count of the number of binge eating symptoms (0-6) that are present for each individual at ages 14, 16, and 18 years. 
 
 (5) Creates two additional variables based on the sum score. The first variable computes a variable that notes binge eating is present ('1') if an individual reports binge eating at least once per month with more than two additional symptoms. The second splits cases into 'absent', 'mild', and 'severe' based on the number of symptoms reported. The tibble is then filtered to exclude cases with all missing data.
 
-(6) Select only a few columns that will go into the final dataset
-
-(7) Renames `binge_sx_sum_split.14` to a simpler name: `binge_severity.14`
 
 ### Key Variables
 
-`binge_severity.14`(defines the severity of binge eating at age 14 based on number of symptoms)
-
-`binge_present.14`(defines whether diagnostic level binge eating is present or absent)
 
 ## Compensatory Behaviors
+
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Driven Exercise
+
+### Background
+
+### Scoring 
+
+### Key Variables
+
+
 
 
