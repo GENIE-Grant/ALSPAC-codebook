@@ -1,0 +1,17 @@
+# Physical Activity
+
+## Free-living activity
+
+Objective physical activity data was captured using Actigraph^tm^ accelerometers at child ages 11.5, 13.5 and 15.5 years. Youth were instructed to wear accelerometers around the waist just above their right hip for the duration of a 7 day tracking period, beginning the day after clinic attendance [@mattocksUseAccelerometersLarge2008]. At age 24 participants were asked to wear accelerometers for four days after clinic attendance [@troianoPhysicalActivityUnited2008]. Valid Days are calculated using a cutoff of minutes per day that an accelerometer was worn. For ages 11.5-15.5 a cutoff of \>=600 minutes per day was used. At age 24 Valid Days were operationalised as a wear time of at least 500 minutes, after excluding intervals of \>60 minutes with zero counts.
+
+#### Activity Counts Per Minute (CPM)
+
+Total physical activity was measured as the total counts per minute (CPM) over the period of valid recording. Associations with total physical activity are usually calculated per 100 cpm as this difference is of a similar order to the differences observed between males and females in these data.
+
+#### Moderate-to-Vigorous Physical Activity (MVPA)
+
+MVPA measures the average amount of time spent above a CPM cutoff, which differs across age. At ages 11.5, 13.5 and 15.5 A value of \>= 3600 CPM was originally used to define MVPA at the time of the data collection [@mattocksUseAccelerometersLarge2008]. More recently, following Evenson et. al. [@evensonCalibrationTwoObjective2008], who calculated a lower cutpoint of \>=2296. Both sets of data were included in analysis. At age 24 MVPA cutoff was established at \>2020 cpm [@troianoPhysicalActivityUnited2008].
+
+## Fitness 
+
+Fitness was assessed at xxx exercise sessions xxx....

@@ -1,4 +1,5 @@
 tab:tab2
+fig:alspac-dx-table
 tab:BMI-table
 data-dictionary-for-alspac-data-k01mh123914
 project-aims
@@ -47,12 +48,15 @@ maladpative-exercise
 exercise-for-weight-loss
 maladaptive-exercise-indicators
 exercise-groups
+eating-disorder-diagnoses
 anthropometric-variables
 body-mass-index-bmi
 scoring-13
 key-variables-12
 physical-activity
 free-living-activity
+activity-counts-per-minute-cpm
+moderate-to-vigorous-physical-activity-mvpa
 fitness
 sociodemographic-variables
 parent-education

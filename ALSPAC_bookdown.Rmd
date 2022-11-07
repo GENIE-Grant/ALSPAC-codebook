@@ -264,6 +264,18 @@ Exericse groups over time are defined for descriptive analyses and transition st
 
 <!--chapter:end:05-ed-behaviors.Rmd-->
 
+# Eating Disorder Diagnoses
+
+Eating disorder diagnoses (AN, BN,BED, BN-Spectrum [Purging disorder and subclinical BN], BED-spectrum [subclinical BED], and Restrictive spectrum [ED cognitions and restrictive ED behaviors in the absence of regular binge eating, purging, or low weight]) were derived at each age (14, 16, 18, and 24) using best available measures and following steps outlined in @micaliAdolescentEatingDisorders2015, with minor changes (cognitive measures added to criteria as available; subclinical and OSFED categories collapsed to reflect BN, BED, and Restrictive Spectrum ED pathology). Scoring algorithms reflect DSM-5 criteria aligned as well as possible with available data that can be harmonized across assessment points [@americanpsychiatricassociationDiagnosticStatisticalManual2013]. While the majority of cognitive and and behavioral ED features are self-reported, parent-report of restrictive eating was included as an indicator at ages 14 and 16 years as adolescents tend to under-report AN symptoms [@houseDiagnosingEatingDisorders2008]. Table \@ref(fig:alspac-dx-table) outlines full criteria used for each diagnosis in the current project.
+
+```{r alspac-dx-table, fig.cap= 'Diagnostic Criteria Assessed Across Age', out.width = '160%', echo = FALSE}
+knitr::include_graphics('figs/ALSPAC_Dx_Table.png')
+```
+
+***Note***. \* indicates that criteria was not assessed at that timepoint. Criteria thus not required for diagnosis at relevant timepoint. Wt = Weight. AN criteria 'Fear of Gaining Weight' and 'Disturbance in body weight/shape, self-worth influenced by weight and shape, or persistent lack of recognition of seriousness of low body weight' combined as a single indicator due to inconsistent measurement in fear of weight gain and potential for lack of insight amongst youth. At each timepoint, diagnosis was given hierarchically from top to bottom of the table (e.g. if symptoms meeting criteria for AN and BN are both endorsed, AN is the given diagnosis).
+
+<!--chapter:end:06-ED-diagnosis.Rmd-->
+
 # Anthropometric Variables
 
 Anthropometric variables were collected and/or reported at several time points during development.
@@ -294,19 +306,27 @@ BMIz scores prior to age 18 are noted as:
 
 
 
-<!--chapter:end:06-anthropomety.Rmd-->
+<!--chapter:end:07-anthropomety.Rmd-->
 
 # Physical Activity
 
 ## Free-living activity
 
-Free-living activity was assessed via accelerometer at ages....
+Objective physical activity data was captured using Actigraph^tm^ accelerometers at child ages 11.5, 13.5 and 15.5 years. Youth were instructed to wear accelerometers around the waist just above their right hip for the duration of a 7 day tracking period, beginning the day after clinic attendance [@mattocksUseAccelerometersLarge2008]. At age 24 participants were asked to wear accelerometers for four days after clinic attendance [@troianoPhysicalActivityUnited2008]. Valid Days are calculated using a cutoff of minutes per day that an accelerometer was worn. For ages 11.5-15.5 a cutoff of \>=600 minutes per day was used. At age 24 Valid Days were operationalised as a wear time of at least 500 minutes, after excluding intervals of \>60 minutes with zero counts.
+
+#### Activity Counts Per Minute (CPM)
+
+Total physical activity was measured as the total counts per minute (CPM) over the period of valid recording. Associations with total physical activity are usually calculated per 100 cpm as this difference is of a similar order to the differences observed between males and females in these data.
+
+#### Moderate-to-Vigorous Physical Activity (MVPA)
+
+MVPA measures the average amount of time spent above a CPM cutoff, which differs across age. At ages 11.5, 13.5 and 15.5 A value of \>= 3600 CPM was originally used to define MVPA at the time of the data collection [@mattocksUseAccelerometersLarge2008]. More recently, following Evenson et. al. [@evensonCalibrationTwoObjective2008], who calculated a lower cutpoint of \>=2296. Both sets of data were included in analysis. At age 24 MVPA cutoff was established at \>2020 cpm [@troianoPhysicalActivityUnited2008].
 
 ## Fitness 
 
 Fitness was assessed at xxx exercise sessions xxx....
 
-<!--chapter:end:07-physical-activity.Rmd-->
+<!--chapter:end:08-physical-activity.Rmd-->
 
 # Sociodemographic Variables
 
@@ -318,23 +338,23 @@ Fitness was assessed at xxx exercise sessions xxx....
 
 ## Parent Ethnicity
 
-<!--chapter:end:08-sociodemographics.Rmd-->
+<!--chapter:end:09-sociodemographics.Rmd-->
 
 # Maternal Eating Disorder Assessments
 
 Mothers reported on eating disorder cognitions and behaviors........
 
-<!--chapter:end:09-maternal-ed-data.Rmd-->
+<!--chapter:end:10-maternal-ed-data.Rmd-->
 
 # Genomic Data
 
 
 
-<!--chapter:end:10-genomic_data.Rmd-->
+<!--chapter:end:11-genomic_data.Rmd-->
 
 `r if (knitr:::is_html_output()) '
 # References {-}
 '`
 
-<!--chapter:end:11-references.Rmd-->
+<!--chapter:end:12-references.Rmd-->
 
