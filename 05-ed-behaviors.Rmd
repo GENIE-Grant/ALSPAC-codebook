@@ -1,34 +1,30 @@
 # Eating Disorder Behaviors
 
-Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24... 
+Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24.
 
-Scoring for eating disorder behaviors is completed with a single scoresheet, `ed_behaviors_scoresheet.csv`, resulting in a data frame which contains all eating disorder behavior variables, titled `ed_behaviors` in the cleaned dataset. 
+Scoring for eating disorder behaviors is completed with a single scoresheet, `ed_behaviors_scoresheet.xlsx`, resulting in a data frame which contains all eating disorder behavior variables, titled `ed_behaviors` in the cleaned dataset.
 
 ## Binge Eating
 
-### Background
+Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at ages 14, 16, 18, and 24. Questions were adapted to inquire about the previous year [@micaliAdolescentEatingDisorder2015] and have been validated in a sample of adolescents in the Growing Up Today Study [@fieldComparisonSelfreportInterview2004]. Binge Eating Behavior in the ALSPAC data has previously been scored and examined in several papers [@micaliAreObesityRisk2015; @micaliEatingDisorderBehaviours2017; @micaliAdolescentEatingDisorder2015; @schaumbergAnxietyDisorderSymptoms2018; @yilmazPredictingEatingDisorder2022]. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding characterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge). Participants who reported any binge eating were then asked to rate five binge eating symptoms (eating faster than normal, stomach hurting or feeling sick, eating large amounts of food, hiding amount eating when on a binge, and feeling guilty after a binge) as to whether they happened never, sometimes, or usually. At age 24, participants were asked how often they went on eating binges in the past year (never, \<1x/mo, 1-3x/mo, 1x/wk, or \>1x/wk), and, if so, whether a period of frequent binge eating lasted at least three months.
 
-Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at ages 14, 16, 18, and 24. Questions were adapted to enquire about the previous year [@micaliAdolescentEatingDisorder2015], and have been validated in a sample of adolescents in the Growing Up Today Study [@fieldComparisonSelfreportInterview2004]. Binge Eating Behavior in the ALSPAC data has previously been scored and examined in several papers [@micaliAreObesityRisk2015; @micaliEatingDisorderBehaviours2017; @micaliAdolescentEatingDisorder2015; @schaumbergAnxietyDisorderSymptoms2018; @yilmazPredictingEatingDisorder2022]. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding characterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge)
+### Scoring
 
-### Scoresheet
+Scoring for questions related to binge eating recodes variables to sensible frequencies (e.g. changing a 'no' answer to be represented as '0' with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symptoms for use in symptom counts. Symptom sum scores, which gives a count of the number of binge eating symptoms (0-5) that are present for each individual 'sometimes' or 'usually' at ages 14, 16, and 18 years, are then computed.
 
-The binge eating scoresheet can be found [here]()
-
-To clean the data, the scoresheet: 
-
-(1) selects only the variables that are relevant for the current measure
-
-(2) appropriately accounts for the skip patterns in the data (recoding to 'no' follow-up questions for individuals who reported no binge eating)
-
-(3) recodes the variables to sensible frequencies (e.g. changing a 'no' answer to be represented as '0' with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symptoms for use in symptom counts.
-
-(4) Creates a symptom sum score, which gives a count of the number of binge eating symptoms (0-6) that are present for each individual at ages 14, 16, and 18 years. 
-
-(5) Creates two additional variables based on the sum score. The first variable computes a variable that notes binge eating is present ('1') if an individual reports binge eating at least once per month with more than two additional symptoms. The second splits cases into 'absent', 'mild', and 'severe' based on the number of symptoms reported. The tibble is then filtered to exclude cases with all missing data.
-
+Based on the sum score, two additional variables based on the sum score. The first variable computes a variable that notes binge eating is present ('1') if an individual reports binge eating at least once per month with more than two additional symptoms (Subclinical BED criteria met) at ages 14, 16, and 18, and binge eating at least once per month at age 24. The second variable computes a variable that notes full threshold Binge Eating Disorder criteria are met (binge eating weekly plus three or more additional psychological symptoms at 14-18; weekly binge eating lasting three months per more at age 24).
 
 ### Key Variables
 
+'x' represents age of assessment for the following variables:
+
+`binge_freq_o.x` - frequency of binge eating at each timepoint
+
+`binge_sx_sum.x` - Number of binge eating psychological symptoms
+
+`binge_sub_criteria_met.x` - dichotomous variable indicating whether subthreshold binge eating disorder symptoms are met
+
+`binge_criteria_met.x` - dichotomous variable indicating whether full threshold binge eating disorder symtpoms are met
 
 ## Compensatory Behaviors
 
@@ -38,14 +34,31 @@ To clean the data, the scoresheet:
 
 ### Key Variables
 
-## Driven Exercise
+## Maladpative Exercise
 
-### Background
+Questions related to maladaptive exercise were self-reported at ages 14, 16, 18, and 24 years. Questions were adapted from the Youth Risk Behavior Survelliance System [@kannYouthRiskBehavior1995].
 
-### Scoring 
+#### Exercise for Weight Loss
 
-### Key Variables
+At ages 14, 16, and 18 years, participants were asked if they exercised to lose weight or avoid gaining weight, with response options of: No(0), Yes-Sometimes(1), and Yes-Frequently(2).
 
+At age 24, participants were asked the frequency with which they exercised to lose weight or avoid gaining weight, with response options of: Never, \<1x/mo, 1-3x/mo, 1-4x/wk, and 5 or more times per week. For the purposes of analysis, responses at age 24 were harmonized with age 14, 16, and 18. Responses of Never were binned as "No" (0); 1x/mo - \<1x/week were binned as 'Yes - Sometimes'(1), and 1x/wk or more as 'Yes - Frequently'(2). Once a week or more was chosen as the threshold for 'frequent' exercise for weight loss at age 24 to align with DSM-V diagnostic frequency thresholds for other eating disorder behaviors, such as binge eating and purging [@americanpsychiatricassociationDiagnosticStatisticalManual2013]. The primary derived outcome variable of analysis for exercise for weight loss is an ordinal variable, defined as 0 = No, 1 = Sometimes, and 2 = Frequently.
 
+#### Maladaptive Exercise Indicators
 
+Issues that are associated with exercise were also reported at ages 14,16, 18, and 24 years. At all assessment points, participants reported whether exercise interferes with work/school (14,16,18), or their daily routine (24). At ages 14 and 24, participants also reported whether they exercised to lose weight even when sick or injured. At ages 16 and 18 years, participants reported whether they felt guilty about missing an exercise session -- see Table \@ref(tab:tab2) . Responses options for exercise issues were 'No', 'yes - Sometimes', or 'Yes - Frequently'.
 
+```{r tab2}
+x <- tibble(Age = c(14,16,18,24), Interferes = c('x','x','x','x'), Sick_Injured = c('x',' ',' ', 'x'), Guilt = c('' ,'x','x', '')) 
+
+kableExtra::kbl(x, caption = 'Exercise Issues Assessed at Each Age') %>% 
+  kableExtra::kable_styling()
+```
+
+Exercise issues are deemmed to be 'present' at each time point if an individual endorses: (1) exercise interfering with work/school sometimes or more OR frequent guilt when missing an exercise session at ages 16 and 18 years and (2) exercise interfering with work/school/daily routine sometimes or more OR exercising even when sick/injured sometimes or more at ages 14 and 24 years.
+
+The presence of maladaptive exercise in this study was defined as exercising for weight loss **sometimes or frequently** and at least one **exercise issue** defined as present at each time point. Frequency of exercise for weight loss as sometimes or more was chosen for this definition as (1) existing literature suggests that frequency of exercise may be less important than cognitive features in defining exercise risk in the context of eating disorders [@adkinsDoesExcessiveCompulsive2005; @mondUpdateDefinitionExcessive2006] and (2) the nature of the epidemiological sample and the concomitant goals of this paper are such that we are interested in identifying early risk indicators, which may be best captured via a broad (vs. narrow) definition of maladaptive exercise. The primary variable to define maladaptive exercise was derived as described, resulting in a dichotomous outcome (0 = Absent, 1 = Present).
+
+#### Exercise Groups
+
+Exericse groups over time are defined for descriptive analyses and transition states, replicating groups defined in @schaumbergProspectiveAssociationsDriven2022. Those who report no exericse for weight loss at each time point are placed in a 'No Exercise for Weight Loss' group, those who report exercise for weight loss at least sometimes, but do not meet criteria for maladaptive exercise are placed in an 'Exercise for Weight Loss' group, and those meeting maladaptive exercise criteria are placed in the 'Maladaptive Exercise' group.

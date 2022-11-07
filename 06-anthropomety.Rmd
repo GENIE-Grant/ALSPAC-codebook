@@ -1,13 +1,29 @@
 # Anthropometric Variables
 
-Anthropometric variables were collected and/or reported at several time points during development. The following time points are avaialble in this project.
-
-```{r}
-#insert table with anthropometric variables and timepoints assessed
-```
-
+Anthropometric variables were collected and/or reported at several time points during development.
 
 ## Body Mass Index (BMI)
 
-## DEXA Scans
+Body Mass Index (BMI) was assessed throughout development, with 16 objective, clinic-based assessment points from ages 2-24 years, and 9 self-report or parent-report assessments of height and weight throughout puberty (ages 8-18). Table \@ref(tab:BMI-table) provides information on specific variables and assessment timepoints.
+
+```{r BMI-table, echo=FALSE}
+library(dplyr)
+library(kableExtra)
+BMI_vars <- readxl::read_excel('BMI_variables.xlsx')
+kbl(BMI_vars, caption = 'BMI-related variables across assessment points') %>% 
+kable_styling() 
+```
+
+## Scoring
+
+For scoring purposes, all raw variables are included in cleaned data (renamed to follow appropriate naming conventions), along with derived variables which compute BMIz scores based on 2000 WHO reference data for all time points (including self-reported data). A 'best available' BMI (and accompanying BMIz score) within the past year at target ages 11.0, 14.0, 16.0, and 18.0 is also calculated. This 'best available' BMI data uses clinic data when available and self/parent-report data if clinic data is not available. This approach is used to maximize accuracy and coverage of data when BMI at a specified age is to be used for eating disorder diagnosis and/or employed as an analytic predictor.
+
+## Key Variables
+
+BMIz scores prior to age 18 are noted as:
+
+`BMIz_clinic.X` Objective obtained BMI at clinic where X = age in years at time when assessment was targeted to be completed, rounded to one tenth. 
+
+`BMIz_sr.X` BMIz obtained by self- or parent-reported height and weight where X = age in years at time when assessment was targeted to be completed, rounded to one tenth.  
+
 

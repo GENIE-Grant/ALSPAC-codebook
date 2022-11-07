@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 6 Eating Disorder Behaviors | Data Dictionary for ALSPAC data: K01MH123914</title>
 <meta name="author" content="Katherine Schaumberg, Max Frank, Sarah Niemi, &amp; the EMBARK Lab">
-<meta name="description" content="Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24… Scoring for eating disorder behaviors is completed with a single scoresheet, ed_behaviors_scoresheet.csv, resulting in a data...">
+<meta name="description" content="Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24. Scoring for eating disorder behaviors is completed with a single scoresheet, ed_behaviors_scoresheet.xlsx, resulting in a data...">
 <meta name="generator" content="bookdown 0.25 with bs4_book()">
 <meta property="og:title" content="Chapter 6 Eating Disorder Behaviors | Data Dictionary for ALSPAC data: K01MH123914">
 <meta property="og:type" content="book">
-<meta property="og:description" content="Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24… Scoring for eating disorder behaviors is completed with a single scoresheet, ed_behaviors_scoresheet.csv, resulting in a data...">
+<meta property="og:description" content="Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24. Scoring for eating disorder behaviors is completed with a single scoresheet, ed_behaviors_scoresheet.xlsx, resulting in a data...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 6 Eating Disorder Behaviors | Data Dictionary for ALSPAC data: K01MH123914">
-<meta name="twitter:description" content="Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24… Scoring for eating disorder behaviors is completed with a single scoresheet, ed_behaviors_scoresheet.csv, resulting in a data...">
+<meta name="twitter:description" content="Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24. Scoring for eating disorder behaviors is completed with a single scoresheet, ed_behaviors_scoresheet.xlsx, resulting in a data...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -70,7 +70,7 @@
 <li><a class="" href="project-aims.html"><span class="header-section-number">2</span> Project Aims</a></li>
 <li><a class="" href="the-alspac-cohort.html"><span class="header-section-number">3</span> The ALSPAC Cohort</a></li>
 <li><a class="" href="scoring.html"><span class="header-section-number">4</span> Scoring</a></li>
-<li><a class="" href="eating-disorder-cognitions.html"><span class="header-section-number">5</span> Eating Disorder Cognitions</a></li>
+<li><a class="" href="cognitive-eating-disorder-features.html"><span class="header-section-number">5</span> Cognitive Eating Disorder Features</a></li>
 <li><a class="active" href="eating-disorder-behaviors.html"><span class="header-section-number">6</span> Eating Disorder Behaviors</a></li>
 <li><a class="" href="anthropometric-variables.html"><span class="header-section-number">7</span> Anthropometric Variables</a></li>
 <li><a class="" href="physical-activity.html"><span class="header-section-number">8</span> Physical Activity</a></li>
@@ -89,82 +89,160 @@
 <h1>
 <span class="header-section-number">6</span> Eating Disorder Behaviors<a class="anchor" aria-label="anchor" href="#eating-disorder-behaviors"><i class="fas fa-link"></i></a>
 </h1>
-<p>Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24…</p>
-<p>Scoring for eating disorder behaviors is completed with a single scoresheet, <code>ed_behaviors_scoresheet.csv</code>, resulting in a data frame which contains all eating disorder behavior variables, titled <code>ed_behaviors</code> in the cleaned dataset.</p>
+<p>Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24.</p>
+<p>Scoring for eating disorder behaviors is completed with a single scoresheet, <code>ed_behaviors_scoresheet.xlsx</code>, resulting in a data frame which contains all eating disorder behavior variables, titled <code>ed_behaviors</code> in the cleaned dataset.</p>
 <div id="binge-eating" class="section level2" number="6.1">
 <h2>
 <span class="header-section-number">6.1</span> Binge Eating<a class="anchor" aria-label="anchor" href="#binge-eating"><i class="fas fa-link"></i></a>
 </h2>
-<div id="background-5" class="section level3" number="6.1.1">
+<p>Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale<span class="citation"><sup><a href="references.html#ref-kannYouthRiskBehavior1996" role="doc-biblioref">25</a></sup></span> at ages 14, 16, 18, and 24. Questions were adapted to inquire about the previous year<span class="citation"><sup><a href="references.html#ref-micaliAdolescentEatingDisorder2015" role="doc-biblioref">26</a></sup></span> and have been validated in a sample of adolescents in the Growing Up Today Study<span class="citation"><sup><a href="references.html#ref-fieldComparisonSelfreportInterview2004" role="doc-biblioref">27</a></sup></span>. Binge Eating Behavior in the ALSPAC data has previously been scored and examined in several papers<span class="citation"><sup><a href="references.html#ref-yilmazPredictingEatingDisorder2022" role="doc-biblioref">14</a>,<a href="references.html#ref-micaliAdolescentEatingDisorder2015" role="doc-biblioref">26</a>,<a href="references.html#ref-micaliAreObesityRisk2015" role="doc-biblioref">28</a>–<a href="references.html#ref-schaumbergAnxietyDisorderSymptoms2018" role="doc-biblioref">30</a></sup></span>. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding characterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge). Participants who reported any binge eating were then asked to rate five binge eating symptoms (eating faster than normal, stomach hurting or feeling sick, eating large amounts of food, hiding amount eating when on a binge, and feeling guilty after a binge) as to whether they happened never, sometimes, or usually. At age 24, participants were asked how often they went on eating binges in the past year (never, &lt;1x/mo, 1-3x/mo, 1x/wk, or &gt;1x/wk), and, if so, whether a period of frequent binge eating lasted at least three months.</p>
+<div id="scoring-11" class="section level3" number="6.1.1">
 <h3>
-<span class="header-section-number">6.1.1</span> Background<a class="anchor" aria-label="anchor" href="#background-5"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.1.1</span> Scoring<a class="anchor" aria-label="anchor" href="#scoring-11"><i class="fas fa-link"></i></a>
 </h3>
-<p>Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale<span class="citation"><sup><a href="references.html#ref-kannYouthRiskBehavior1996" role="doc-biblioref">25</a></sup></span> at ages 14, 16, 18, and 24. Questions were adapted to enquire about the previous year<span class="citation"><sup><a href="references.html#ref-micaliAdolescentEatingDisorder2015" role="doc-biblioref">26</a></sup></span>, and have been validated in a sample of adolescents in the Growing Up Today Study<span class="citation"><sup><a href="references.html#ref-fieldComparisonSelfreportInterview2004" role="doc-biblioref">27</a></sup></span>. Binge Eating Behavior in the ALSPAC data has previously been scored and examined in several papers<span class="citation"><sup><a href="references.html#ref-yilmazPredictingEatingDisorder2022" role="doc-biblioref">14</a>,<a href="references.html#ref-micaliAdolescentEatingDisorder2015" role="doc-biblioref">26</a>,<a href="references.html#ref-micaliAreObesityRisk2015" role="doc-biblioref">28</a>–<a href="references.html#ref-schaumbergAnxietyDisorderSymptoms2018" role="doc-biblioref">30</a></sup></span>. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding characterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge)</p>
+<p>Scoring for questions related to binge eating recodes variables to sensible frequencies (e.g. changing a ‘no’ answer to be represented as ‘0’ with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symptoms for use in symptom counts. Symptom sum scores, which gives a count of the number of binge eating symptoms (0-5) that are present for each individual ‘sometimes’ or ‘usually’ at ages 14, 16, and 18 years, are then computed.</p>
+<p>Based on the sum score, two additional variables based on the sum score. The first variable computes a variable that notes binge eating is present (‘1’) if an individual reports binge eating at least once per month with more than two additional symptoms (Subclinical BED criteria met) at ages 14, 16, and 18, and binge eating at least once per month at age 24. The second variable computes a variable that notes full threshold Binge Eating Disorder criteria are met (binge eating weekly plus three or more additional psychological symptoms at 14-18; weekly binge eating lasting three months per more at age 24).</p>
 </div>
-<div id="scoresheet" class="section level3" number="6.1.2">
+<div id="key-variables-10" class="section level3" number="6.1.2">
 <h3>
-<span class="header-section-number">6.1.2</span> Scoresheet<a class="anchor" aria-label="anchor" href="#scoresheet"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.1.2</span> Key Variables<a class="anchor" aria-label="anchor" href="#key-variables-10"><i class="fas fa-link"></i></a>
 </h3>
-<p>The binge eating scoresheet can be found <a href="">here</a></p>
-<p>To clean the data, the scoresheet:</p>
-<ol style="list-style-type: decimal">
-<li><p>selects only the variables that are relevant for the current measure</p></li>
-<li><p>appropriately accounts for the skip patterns in the data (recoding to ‘no’ follow-up questions for individuals who reported no binge eating)</p></li>
-<li><p>recodes the variables to sensible frequencies (e.g. changing a ‘no’ answer to be represented as ‘0’ with increasing frequency incrementing from zero) and computes dichotomized versions of the presence vs. absence of symptoms for use in symptom counts.</p></li>
-<li><p>Creates a symptom sum score, which gives a count of the number of binge eating symptoms (0-6) that are present for each individual at ages 14, 16, and 18 years.</p></li>
-<li><p>Creates two additional variables based on the sum score. The first variable computes a variable that notes binge eating is present (‘1’) if an individual reports binge eating at least once per month with more than two additional symptoms. The second splits cases into ‘absent’, ‘mild’, and ‘severe’ based on the number of symptoms reported. The tibble is then filtered to exclude cases with all missing data.</p></li>
-</ol>
-</div>
-<div id="key-variables-5" class="section level3" number="6.1.3">
-<h3>
-<span class="header-section-number">6.1.3</span> Key Variables<a class="anchor" aria-label="anchor" href="#key-variables-5"><i class="fas fa-link"></i></a>
-</h3>
+<p>‘x’ represents age of assessment for the following variables:</p>
+<p><code>binge_freq_o.x</code> - frequency of binge eating at each timepoint</p>
+<p><code>binge_sx_sum.x</code> - Number of binge eating psychological symptoms</p>
+<p><code>binge_sub_criteria_met.x</code> - dichotomous variable indicating whether subthreshold binge eating disorder symptoms are met</p>
+<p><code>binge_criteria_met.x</code> - dichotomous variable indicating whether full threshold binge eating disorder symtpoms are met</p>
 </div>
 </div>
 <div id="compensatory-behaviors" class="section level2" number="6.2">
 <h2>
 <span class="header-section-number">6.2</span> Compensatory Behaviors<a class="anchor" aria-label="anchor" href="#compensatory-behaviors"><i class="fas fa-link"></i></a>
 </h2>
-<div id="background-6" class="section level3" number="6.2.1">
+<div id="background" class="section level3" number="6.2.1">
 <h3>
-<span class="header-section-number">6.2.1</span> Background<a class="anchor" aria-label="anchor" href="#background-6"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.2.1</span> Background<a class="anchor" aria-label="anchor" href="#background"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="scoring-6" class="section level3" number="6.2.2">
+<div id="scoring-12" class="section level3" number="6.2.2">
 <h3>
-<span class="header-section-number">6.2.2</span> Scoring<a class="anchor" aria-label="anchor" href="#scoring-6"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.2.2</span> Scoring<a class="anchor" aria-label="anchor" href="#scoring-12"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="key-variables-6" class="section level3" number="6.2.3">
+<div id="key-variables-11" class="section level3" number="6.2.3">
 <h3>
-<span class="header-section-number">6.2.3</span> Key Variables<a class="anchor" aria-label="anchor" href="#key-variables-6"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.2.3</span> Key Variables<a class="anchor" aria-label="anchor" href="#key-variables-11"><i class="fas fa-link"></i></a>
 </h3>
 </div>
 </div>
-<div id="driven-exercise" class="section level2" number="6.3">
+<div id="maladpative-exercise" class="section level2" number="6.3">
 <h2>
-<span class="header-section-number">6.3</span> Driven Exercise<a class="anchor" aria-label="anchor" href="#driven-exercise"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.3</span> Maladpative Exercise<a class="anchor" aria-label="anchor" href="#maladpative-exercise"><i class="fas fa-link"></i></a>
 </h2>
-<div id="background-7" class="section level3" number="6.3.1">
-<h3>
-<span class="header-section-number">6.3.1</span> Background<a class="anchor" aria-label="anchor" href="#background-7"><i class="fas fa-link"></i></a>
-</h3>
+<p>Questions related to maladaptive exercise were self-reported at ages 14, 16, 18, and 24 years. Questions were adapted from the Youth Risk Behavior Survelliance System<span class="citation"><sup><a href="#ref-kannYouthRiskBehavior1995" role="doc-biblioref"><strong>kannYouthRiskBehavior1995?</strong></a></sup></span>.</p>
+<div id="exercise-for-weight-loss" class="section level4" number="6.3.0.1">
+<h4>
+<span class="header-section-number">6.3.0.1</span> Exercise for Weight Loss<a class="anchor" aria-label="anchor" href="#exercise-for-weight-loss"><i class="fas fa-link"></i></a>
+</h4>
+<p>At ages 14, 16, and 18 years, participants were asked if they exercised to lose weight or avoid gaining weight, with response options of: No(0), Yes-Sometimes(1), and Yes-Frequently(2).</p>
+<p>At age 24, participants were asked the frequency with which they exercised to lose weight or avoid gaining weight, with response options of: Never, &lt;1x/mo, 1-3x/mo, 1-4x/wk, and 5 or more times per week. For the purposes of analysis, responses at age 24 were harmonized with age 14, 16, and 18. Responses of Never were binned as “No” (0); 1x/mo - &lt;1x/week were binned as ‘Yes - Sometimes’(1), and 1x/wk or more as ‘Yes - Frequently’(2). Once a week or more was chosen as the threshold for ‘frequent’ exercise for weight loss at age 24 to align with DSM-V diagnostic frequency thresholds for other eating disorder behaviors, such as binge eating and purging<span class="citation"><sup><a href="#ref-americanpsychiatricassociationDiagnosticStatisticalManual2013" role="doc-biblioref"><strong>americanpsychiatricassociationDiagnosticStatisticalManual2013?</strong></a></sup></span>. The primary derived outcome variable of analysis for exercise for weight loss is an ordinal variable, defined as 0 = No, 1 = Sometimes, and 2 = Frequently.</p>
 </div>
-<div id="scoring-7" class="section level3" number="6.3.2">
-<h3>
-<span class="header-section-number">6.3.2</span> Scoring<a class="anchor" aria-label="anchor" href="#scoring-7"><i class="fas fa-link"></i></a>
-</h3>
+<div id="maladaptive-exercise-indicators" class="section level4" number="6.3.0.2">
+<h4>
+<span class="header-section-number">6.3.0.2</span> Maladaptive Exercise Indicators<a class="anchor" aria-label="anchor" href="#maladaptive-exercise-indicators"><i class="fas fa-link"></i></a>
+</h4>
+<p>Issues that are associated with exercise were also reported at ages 14,16, 18, and 24 years. At all assessment points, participants reported whether exercise interferes with work/school (14,16,18), or their daily routine (24). At ages 14 and 24, participants also reported whether they exercised to lose weight even when sick or injured. At ages 16 and 18 years, participants reported whether they felt guilty about missing an exercise session – see Table <a href="eating-disorder-behaviors.html#tab:tab2">6.1</a> . Responses options for exercise issues were ‘No’, ‘yes - Sometimes’, or ‘Yes - Frequently’.</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">tibble</span><span class="op">(</span>Age <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">14</span>,<span class="fl">16</span>,<span class="fl">18</span>,<span class="fl">24</span><span class="op">)</span>, Interferes <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'x'</span>,<span class="st">'x'</span>,<span class="st">'x'</span>,<span class="st">'x'</span><span class="op">)</span>, Sick_Injured <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'x'</span>,<span class="st">' '</span>,<span class="st">' '</span>, <span class="st">'x'</span><span class="op">)</span>, Guilt <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">''</span> ,<span class="st">'x'</span>,<span class="st">'x'</span>, <span class="st">''</span><span class="op">)</span><span class="op">)</span> 
+
+<span class="fu">kableExtra</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/kableExtra/man/kbl.html">kbl</a></span><span class="op">(</span><span class="va">x</span>, caption <span class="op">=</span> <span class="st">'Exercise Issues Assessed at Each Age'</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+  <span class="fu">kableExtra</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/kableExtra/man/kable_styling.html">kable_styling</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
+<div class="inline-table"><table class="table" style="margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:tab2">Table 6.1: </span>Exercise Issues Assessed at Each Age
+</caption>
+<thead><tr>
+<th style="text-align:right;">
+Age
+</th>
+<th style="text-align:left;">
+Interferes
+</th>
+<th style="text-align:left;">
+Sick_Injured
+</th>
+<th style="text-align:left;">
+Guilt
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:left;">
+x
+</td>
+<td style="text-align:left;">
+x
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:left;">
+x
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+x
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:left;">
+x
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+x
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:left;">
+x
+</td>
+<td style="text-align:left;">
+x
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Exercise issues are deemmed to be ‘present’ at each time point if an individual endorses: (1) exercise interfering with work/school sometimes or more OR frequent guilt when missing an exercise session at ages 16 and 18 years and (2) exercise interfering with work/school/daily routine sometimes or more OR exercising even when sick/injured sometimes or more at ages 14 and 24 years.</p>
+<p>The presence of maladaptive exercise in this study was defined as exercising for weight loss <strong>sometimes or frequently</strong> and at least one <strong>exercise issue</strong> defined as present at each time point. Frequency of exercise for weight loss as sometimes or more was chosen for this definition as (1) existing literature suggests that frequency of exercise may be less important than cognitive features in defining exercise risk in the context of eating disorders<span class="citation"><sup><a href="#ref-adkinsDoesExcessiveCompulsive2005" role="doc-biblioref"><strong>adkinsDoesExcessiveCompulsive2005?</strong></a>,<a href="#ref-mondUpdateDefinitionExcessive2006" role="doc-biblioref"><strong>mondUpdateDefinitionExcessive2006?</strong></a></sup></span> and (2) the nature of the epidemiological sample and the concomitant goals of this paper are such that we are interested in identifying early risk indicators, which may be best captured via a broad (vs. narrow) definition of maladaptive exercise. The primary variable to define maladaptive exercise was derived as described, resulting in a dichotomous outcome (0 = Absent, 1 = Present).</p>
 </div>
-<div id="key-variables-7" class="section level3" number="6.3.3">
-<h3>
-<span class="header-section-number">6.3.3</span> Key Variables<a class="anchor" aria-label="anchor" href="#key-variables-7"><i class="fas fa-link"></i></a>
-</h3>
+<div id="exercise-groups" class="section level4" number="6.3.0.3">
+<h4>
+<span class="header-section-number">6.3.0.3</span> Exercise Groups<a class="anchor" aria-label="anchor" href="#exercise-groups"><i class="fas fa-link"></i></a>
+</h4>
+<p>Exericse groups over time are defined for descriptive analyses and transition states, replicating groups defined in<span class="citation"><sup><a href="references.html#ref-schaumbergProspectiveAssociationsDriven2022" role="doc-biblioref">15</a></sup></span>. Those who report no exericse for weight loss at each time point are placed in a ‘No Exercise for Weight Loss’ group, those who report exercise for weight loss at least sometimes, but do not meet criteria for maladaptive exercise are placed in an ‘Exercise for Weight Loss’ group, and those meeting maladaptive exercise criteria are placed in the ‘Maladaptive Exercise’ group.</p>
 
 </div>
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="eating-disorder-cognitions.html"><span class="header-section-number">5</span> Eating Disorder Cognitions</a></div>
+<div class="prev"><a href="cognitive-eating-disorder-features.html"><span class="header-section-number">5</span> Cognitive Eating Disorder Features</a></div>
 <div class="next"><a href="anthropometric-variables.html"><span class="header-section-number">7</span> Anthropometric Variables</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
@@ -172,25 +250,18 @@
 <li><a class="nav-link" href="#eating-disorder-behaviors"><span class="header-section-number">6</span> Eating Disorder Behaviors</a></li>
 <li>
 <a class="nav-link" href="#binge-eating"><span class="header-section-number">6.1</span> Binge Eating</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#background-5"><span class="header-section-number">6.1.1</span> Background</a></li>
-<li><a class="nav-link" href="#scoresheet"><span class="header-section-number">6.1.2</span> Scoresheet</a></li>
-<li><a class="nav-link" href="#key-variables-5"><span class="header-section-number">6.1.3</span> Key Variables</a></li>
+<li><a class="nav-link" href="#scoring-11"><span class="header-section-number">6.1.1</span> Scoring</a></li>
+<li><a class="nav-link" href="#key-variables-10"><span class="header-section-number">6.1.2</span> Key Variables</a></li>
 </ul>
 </li>
 <li>
 <a class="nav-link" href="#compensatory-behaviors"><span class="header-section-number">6.2</span> Compensatory Behaviors</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#background-6"><span class="header-section-number">6.2.1</span> Background</a></li>
-<li><a class="nav-link" href="#scoring-6"><span class="header-section-number">6.2.2</span> Scoring</a></li>
-<li><a class="nav-link" href="#key-variables-6"><span class="header-section-number">6.2.3</span> Key Variables</a></li>
+<li><a class="nav-link" href="#background"><span class="header-section-number">6.2.1</span> Background</a></li>
+<li><a class="nav-link" href="#scoring-12"><span class="header-section-number">6.2.2</span> Scoring</a></li>
+<li><a class="nav-link" href="#key-variables-11"><span class="header-section-number">6.2.3</span> Key Variables</a></li>
 </ul>
 </li>
-<li>
-<a class="nav-link" href="#driven-exercise"><span class="header-section-number">6.3</span> Driven Exercise</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#background-7"><span class="header-section-number">6.3.1</span> Background</a></li>
-<li><a class="nav-link" href="#scoring-7"><span class="header-section-number">6.3.2</span> Scoring</a></li>
-<li><a class="nav-link" href="#key-variables-7"><span class="header-section-number">6.3.3</span> Key Variables</a></li>
-</ul>
-</li>
+<li><a class="nav-link" href="#maladpative-exercise"><span class="header-section-number">6.3</span> Maladpative Exercise</a></li>
 </ul>
 
       <div class="book-extra">
@@ -207,7 +278,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Data Dictionary for ALSPAC data: K01MH123914</strong>" was written by Katherine Schaumberg, Max Frank, Sarah Niemi, &amp; the EMBARK Lab. It was last built on 2022-04-28.</p>
+    <p>"<strong>Data Dictionary for ALSPAC data: K01MH123914</strong>" was written by Katherine Schaumberg, Max Frank, Sarah Niemi, &amp; the EMBARK Lab. It was last built on 2022-11-06.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

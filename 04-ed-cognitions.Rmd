@@ -1,45 +1,52 @@
-# Eating Disorder Cognitions 
+# Cognitive Eating Disorder Features
 
-Eating disorder cognitions were assessed in-depth at age 14 years, with some additional eating disorder cognition variables assessed at other time points. 
+| Construct                   | Age        | Measure                                                                                                                                                                                   | ED Cognitive Symptom Diagnostic Criteria Cutoffs                                                             |
+|:----------------------------|:-----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
+| Body Image Discrepancy      | 10         | Stunkard Figure Rating Scale                                                                                                                                                              |                                                                                                              |
+| Thin ideal internalization  | 14         | IBSS-R appearance ideals rated on a 5-point Likert scale from 'strongly agree' to 'strongly disagree.'                                                                                    |                                                                                                              |
+| Pressure to Lose Weight     | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
+| Pressure to Increase Muscle | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
+| External Eating             | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
+| Restrained Eating           | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
+| Emotional Eating            | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
+| Weight/Shape Concern        | 14         | Assessed using 2-items from the McKnight risk survey asking how how happy participants are with their bodies and if weight has made a difference in how they have felt about their bodies | **'Very unhappy' with weight and shape or weight making 'A lot/quite a lot' of difference in how one feels** |
+| Body Dissatisfaction        | 14, 18, 24 | Satisfaction with body parts on a 5-point Likert scale, from 'extremely satisfied' to 'extremely dissatisfied' with higher values indicating higher dissatisfaction.                      | **Average score of 'moderately dissatisfied' or higher**                                                     |
+| Dieting                     | 14, 16, 18 | Frequency during the past year young person went on a diet to lose weight/keep from gaining weight.                                                                                       | **Dieting reported in the past year 'several times' or more**                                                |
+| Fear of Weight Gain         | 14, 24     | Participants reported the degree they worried about gaining a little weight (two pounds) in the past year.                                                                                | **Fear of weight gain endorsed 'a lot' or 'all the time'**                                                   |
+| Weight Intentions           | 14, 18     | Participants reported what they are trying to do with their weight.                                                                                                                       | **Weight loss intentions reported**                                                                          |
+| Weight Perception           | 14, 18     | Participants reported their perception of their weight.                                                                                                                                   |                                                                                                              |
+| Weight Valuation            | 18         | Participants reported the degree to which their weight has made a difference to how they feel about themselves.                                                                           | **Weight valuation reported 'somewhat' or more**                                                             |
+| Feeling Fat                 | 24         | Participant reported the frequency that they have felt fat in the past year.                                                                                                              | **Feeling fat reported 'sometimes' or more**                                                                 |
 
-```{r}
-#insert table here with constructs, ages, and checkmarks
-```
-MAX changed this
-
-## Dieting
-
-### Background
-
-Dieting was assessed at ages 14 and 16 years
-
-the dieting at age 14 questionare is a set of two questions asked as a part of the ALSPAC study. Data from these questions has been used in multiple studies...(insert links). The two questions asked aim to learn the extent of dieting a respondent has taken part in. The first question aims to find the frequency of dieting and the second question asks about the length of diets in the past year.
-
-### Scoring
-
-
-### Key Variables
-
-
-## Thin-ideal Internalization 
-
-### Background
+## Body Discrepancy
 
 ### Scoring
 
 ### Key Variables
 
-## Dietary Restraint
+## Thin-ideal Internalization
 
-### Background
+Thin-ideal internalization at age 14 was assessed using the Ideal-Body Stereotype Scale-Revised (IBSS-R) [@sticeTestDualPathway1996] Girls and boys were both asked six questions, three of which were the same and three of which were gender-specific, assessing the perceived attractiveness of same-sex individuals based on physical characteristics (e.g. being 'lean', 'tall', 'petite'). Items are rated on a 5-point likert scale ranging from 'Strongly Disagree' (0) to 'Strongly Agree' (4) [@calzoSexualOrientationDisparities2018].
 
 ### Scoring
 
 ### Key Variables
 
-## Fear of Weight Gain
+## Pressure to Lose Weight/Pressure to Increase Muscle
 
-### Background
+### Scoring
+
+### Key Variables
+
+## Restrained Eating, External Eating, and Emotional Eating
+
+Restrictive Eating, External Eating, and Emotional Eating were assessed at child age 14 years by the Dutch Eating Behavior Questionnaire (DEBQ;
+
+### Scoring
+
+### Key Variables
+
+## Shape and Weight Concern
 
 ### Scoring
 
@@ -47,9 +54,44 @@ the dieting at age 14 questionare is a set of two questions asked as a part of t
 
 ## Body Dissatisfaction
 
-### Background
+Body Dissatisfaction at age 14 was assessed via an 11-item scale adapted from the satisfaction and dissatisfaction with body parts scale [@sticeProspectiveTestDualpathway2001], which has been used in several previous studies involving the ALSPAC Cohort [@bornioliAdolescentBodyDissatisfaction2019; @bornioliBodyDissatisfactionPredicts2021; @schaumbergAnxietyDisorderSymptoms2019; @schaumbergProspectiveAssociationsChildhood2021]. Among the 11 items, one item differs between the sexes (satisfaction with 'breasts' is specified for girls and 'build' for boys). Two items address overall body satisfaction with weight and figure, and the remaining items evaluate satisfaction with specific body parts.
+
+### Scoring
+
+At age 14, responses are graded on a 5-point likert scale from "Extremely Satisfied" (1) to "Extremely Dissatisfied" (5). Body dissatisfaction was scored using the mean of all 11 items, with higher scores indicating greater body dissatisfaction.
+
+### Key Variables
+
+## Dieting
+
+Dieting was assessed at ages 14, 16, and 18 years.
+
+To assess dieting at age 14, participants were asked a set of two questions. Data from these questions has been used in multiple studies...(insert links). The two questions asked aim to learn the extent of dieting a respondent has taken part in. The first question aims to find the frequency of dieting and the second question asks about the length of diets in the past year.
 
 ### Scoring
 
 ### Key Variables
 
+## Fear of Weight Gain
+
+Fear of weight gain was assessed via a single item asking the degree to which participants have worried about gaining a little weight, using a likert response scale (0=not at all, 1=a little, 2=a lot, and 3=all the time).
+
+### Scoring
+
+### Key Variables
+
+## Weight Intentions, Perception, and Valuation
+
+### Scoring
+
+### Key Variables
+
+## Feeling Fat
+
+Individuals were asked at age 24 how often they 'felt fat' in the past year.
+
+### Scoring
+
+Response options were Never (0), A little (1), Sometimes (2), A lot (3), and Always (4).
+
+### Key Variables
