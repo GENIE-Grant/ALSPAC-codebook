@@ -1,22 +1,22 @@
 # Cognitive Eating Disorder Features
 
-| Construct                   | Age        | Measure                                                                                                                                                                                   | ED Cognitive Symptom Diagnostic Criteria Cutoffs                                                             |
-|:----------------|:----------------|:--------------------|:----------------|
-| Body Image Discrepancy      | 10         | Stunkard Figure Rating Scale                                                                                                                                                              |                                                                                                              |
-| Thin ideal internalization  | 14         | IBSS-R appearance ideals rated on a 5-point Likert scale from 'strongly agree' to 'strongly disagree.'                                                                                    |                                                                                                              |
-| Pressure to Lose Weight     | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
-| Pressure to Increase Muscle | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
-| External Eating             | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
-| Restrained Eating           | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
-| Emotional Eating            | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
-| Weight/Shape Concern        | 14         | Assessed using 2-items from the McKnight risk survey asking how how happy participants are with their bodies and if weight has made a difference in how they have felt about their bodies | **'Very unhappy' with weight and shape or weight making 'A lot/quite a lot' of difference in how one feels** |
-| Body Dissatisfaction        | 14, 18, 24 | Satisfaction with body parts on a 5-point Likert scale, from 'extremely satisfied' to 'extremely dissatisfied' with higher values indicating higher dissatisfaction.                      | **Average score of 'moderately dissatisfied' or higher**                                                     |
-| Dieting                     | 14, 16, 18 | Frequency during the past year young person went on a diet to lose weight/keep from gaining weight.                                                                                       | **Dieting reported in the past year 'several times' or more**                                                |
-| Fear of Weight Gain         | 14, 24     | Participants reported the degree they worried about gaining a little weight (two pounds) in the past year.                                                                                | **Fear of weight gain endorsed 'a lot' or 'all the time'**                                                   |
-| Weight Intentions           | 14, 18     | Participants reported what they are trying to do with their weight.                                                                                                                       | **Weight loss intentions reported**                                                                          |
-| Weight Perception           | 14, 18     | Participants reported their perception of their weight.                                                                                                                                   |                                                                                                              |
-| Weight Valuation            | 18         | Participants reported the degree to which their weight has made a difference to how they feel about themselves.                                                                           | **Weight valuation reported 'somewhat' or more**                                                             |
-| Feeling Fat                 | 24         | Participant reported the frequency that they have felt fat in the past year.                                                                                                              | **Feeling fat reported 'sometimes' or more**                                                                 |
+| Construct                   | Age        | Measure                                                                                                                                                                                   | ED Cognitive Symptom Diagnostic Criteria Cutoffs                                                         |
+|:-----------------|:-----------------|:-------------------|:-----------------|
+| Body Image Discrepancy      | 10         | Stunkard Figure Rating Scale                                                                                                                                                              |                                                                                                          |
+| Thin ideal internalization  | 14         | IBSS-R appearance ideals rated on a 5-point Likert scale from 'strongly agree' to 'strongly disagree.'                                                                                    |                                                                                                          |
+| Pressure to Lose Weight     | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                          |
+| Pressure to Increase Muscle | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                          |
+| External Eating             | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                          |
+| Restrained Eating           | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                          |
+| Emotional Eating            | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                          |
+| Weight/Shape Concern        | 14         | Assessed using 3 items from the McKnight risk survey asking how how happy participants are with their bodies and if weight has made a difference in how they have felt about their bodies | **'Very unhappy' with weight or shape, and spending 'A lot/quite a lot' of time concerned about weight** |
+| Body Dissatisfaction        | 14, 18, 24 | Satisfaction with body parts on a 5-point Likert scale, from 'extremely satisfied' to 'extremely dissatisfied' with higher values indicating higher dissatisfaction.                      | **Average score of 'moderately dissatisfied' or higher**                                                 |
+| Dieting                     | 14, 16, 18 | Frequency during the past year young person went on a diet to lose weight/keep from gaining weight.                                                                                       | **Dieting reported in the past year 'several times' or more**                                            |
+| Fear of Weight Gain         | 14, 24     | Participants reported the degree they worried about gaining a little weight (two pounds) in the past year.                                                                                | **Fear of weight gain endorsed 'a lot' or 'all the time'**                                               |
+| Weight Intentions           | 14, 18     | Participants reported what they are trying to do with their weight.                                                                                                                       | **Weight loss intentions reported**                                                                      |
+| Weight Perception           | 14, 18     | Participants reported their perception of their weight.                                                                                                                                   |                                                                                                          |
+| Weight Valuation            | 18         | Participants reported the degree to which their weight has made a difference to how they feel about themselves.                                                                           | **Weight valuation reported 'somewhat' or more**                                                         |
+| Feeling Fat                 | 24         | Participant reported the frequency that they have felt fat in the past year.                                                                                                              | **Feeling fat reported 'sometimes' or more**                                                             |
 
 ## Body Discrepancy
 
@@ -30,9 +30,11 @@ Responses for figures varying in weight were scored as 'very thin', 'thin', 'ave
 
 ## Thin-ideal Internalization
 
-Thin-ideal internalization at age 14 was assessed using the Ideal-Body Stereotype Scale-Revised (IBSS-R) [@sticeTestDualPathway1996] Girls and boys were both asked six questions, three of which were the same and three of which were gender-specific, assessing the perceived attractiveness of same-sex individuals based on physical characteristics (e.g. being 'lean', 'tall', 'petite'). Items are rated on a 5-point likert scale ranging from 'Strongly Disagree' (0) to 'Strongly Agree' (4) [@calzoSexualOrientationDisparities2018].
+Thin-ideal internalization at age 14 was assessed using the Ideal-Body Stereotype Scale-Revised (IBSS-R) [@sticeTestDualPathway1996] Girls and boys were both asked six questions, three of which were the same and three of which were gender-specific, assessing the perceived attractiveness of same-sex individuals based on physical characteristics (e.g. being 'lean', 'tall', 'petite').
 
 ### Scoring
+
+Items are rated on a 5-point Likert scale ranging from 'Strongly Disagree' (0) to 'Strongly Agree' (4) [@calzoSexualOrientationDisparities2018].
 
 ### Key Variables
 
@@ -42,37 +44,47 @@ Pressure to lose weight and to increase muscle were both assessed at age 14 usin
 
 ### Scoring
 
-Response options for both pressure to lose weight and increase muscle were 'Not at all' (1), 'A little' (2), 'Quite a lot' (3) and 'A lot' (4).
+Response options for both pressure to lose weight and increase muscle were 'Not at all' (1), 'A little' (2), 'Quite a lot' (3), and 'A lot' (4).
 
 ### Key Variables
-
-`pressure_wtloss.14` Pressure to lose weight average score
-
-`pressure_muscle.14` Pressure to increase muscle average score
 
 ## Restrained Eating, External Eating, and Emotional Eating
 
 Restrictive Eating, External Eating, and Emotional Eating were assessed at child age 14 years by the Dutch Eating Behavior Questionnaire (DEBQ) [@vanstrienDutchEatingBehavior1986]. Restrained eating addressed purposefully restricting intake regarding weight concerns. External eating addressed the likelihood of a participant eating due to external stimuli like the sight and smell of the food, regardless of the participant's hunger level. Finally, emotional eating addressed how often the participant ate excessively when they experienced different emotional states.
 
-### Scoring 
+### Scoring
 
-Depending on the phrasing of the items, responses were either asked on a scale of 'Yes, usually' (1), 'Yes, sometimes' (2), or 'No' (3) or on a scale of 'Never' (1), 'Occasionally' (2), 'Sometimes' (3), or 'Frequently' (4).
+Depending on the phrasing of the items, responses were either asked on a scale of 'Yes, usually want to eat more' (1), 'Sometimes want to eat more' (2), or 'No, not at all' (3) or on a scale of 'Never' (1), 'Occasionally' (2), 'Sometimes' (3), or 'Frequently' (4).
 
 ### Key Variables
 
 ## Shape and Weight Concern
 
+Shape and Weight concern were assessed at age 14 using items from the McNight Risk Factor Survey, which assesses risk and protective factors for the development of eating disorders in preadolescence and adolescent girls [@shisslakDevelopmentEvaluationMcKnight1999]. The three items taken from the McKnight Survey were:
+
+1.  'In the past year, how happy have you been with the way your body looks?'
+
+2.  'In the past year, how much has your weight made a difference to how you feel about yourself?'
+
+3.  'In the past year, how much have you worried about gaining a little weight (as little as 1 kilo)?'
+
 ### Scoring
+
+Four responses on a 4-point Likert scale were used (from 'very unhappy' (1) or 'not at all' (1) to 'very happy' (4) or 'a lot/all the time' (4)). The three questions were summed to generate a continuous score.
 
 ### Key Variables
 
 ## Body Dissatisfaction
 
-Body Dissatisfaction at age 14 was assessed via an 11-item scale adapted from the satisfaction and dissatisfaction with body parts scale [@sticeProspectiveTestDualpathway2001], which has been used in several previous studies involving the ALSPAC Cohort [@bornioliAdolescentBodyDissatisfaction2019; @bornioliBodyDissatisfactionPredicts2021; @schaumbergAnxietyDisorderSymptoms2019; @schaumbergProspectiveAssociationsChildhood2021]. Among the 11 items, one item differs between the sexes (satisfaction with 'breasts' is specified for girls and 'build' for boys). Two items address overall body satisfaction with weight and figure, and the remaining items evaluate satisfaction with specific body parts.
+Body Dissatisfaction was assessed at ages 14, 18, and 24. An 11-item scale adapted from the satisfaction and dissatisfaction with body parts scale [@sticeProspectiveTestDualpathway2001], which has been used in several previous studies involving the ALSPAC Cohort [@bornioliAdolescentBodyDissatisfaction2019; @bornioliBodyDissatisfactionPredicts2021; @schaumbergAnxietyDisorderSymptoms2019; @schaumbergProspectiveAssociationsChildhood2021], was given at Wave 14. Among the 11 items, one item differs between the sexes (satisfaction with 'breasts' is specified for girls and 'build' for boys). Two items address overall body satisfaction with weight and figure, and the remaining items evaluate satisfaction with specific body parts.
+
+Participants were not asked about body satisfaction at age 16. At Wave 18 and 24, participants completed 1 item that addressed happiness levels regarding weight and shape in the past year.
 
 ### Scoring
 
-At age 14, responses are graded on a 5-point likert scale from "Extremely Satisfied" (1) to "Extremely Dissatisfied" (5). Body dissatisfaction was scored using the mean of all 11 items, with higher scores indicating greater body dissatisfaction.
+At age 14, responses are graded on a 5-point Likert scale from 'Extremely Satisfied' (1) to 'Extremely Dissatisfied' (5). Body dissatisfaction was scored using the mean of all 11 items, with higher scores indicating greater body dissatisfaction.
+
+At age 18, participants were presented with four responses ranging from 'Very unhappy' (1) to 'Very happy' (4). At age 24, participants were given 5 response options ranging from 'Not at all happy' (1) to 'completely happy' (5).
 
 ### Key Variables
 
@@ -80,23 +92,41 @@ At age 14, responses are graded on a 5-point likert scale from "Extremely Satisf
 
 Dieting was assessed at ages 14, 16, and 18 years.
 
-To assess dieting at age 14, participants were asked a set of two questions. Data from these questions has been used in multiple studies...(insert links). The two questions asked aim to learn the extent of dieting a respondent has taken part in. The first question aims to find the frequency of dieting and the second question asks about the length of diets in the past year.
+To assess dieting, participants were asked a set of questions regarding dieting strategies to lose or keep from gaining weight and actual weight loss in the past year. While these items are original to the ALSPAC study, thesy have been used in multiple studies to assess the overall level of dieting in adolescents [@micaliAdolescentEatingDisorder2015] [@jonesMisreportingEnergyIntake2021]. The question consists of multiple parts with the aim to learn the extent of dieting a respondent has taken part in. The first part of the question aims to find the type of diet(s) and length of time the participant has engaged in said diet(s) and the second part asks about weight lost during the diet and possible weight gain succeeding the diet.
 
 ### Scoring
+
+When asked if the participant has gone on a diet in the past year, responses range from 'Always on a diet' (1) to 'never' (5). If respondent selects any answer other than 'never', they are then prompted to respond how long they engaged in the diet(s) ('less than a week', '1-3 weeks', '1-3 months', or '3 or 4 months') and the type of diet(s) they used.
+
+The participant also answers how many pounds they lost while on to the diet(s) and, if they did lose weight, if they gained any of the weight back after the diet ('No, did not regain any of the weight', 'Gained back a little of the weight", 'Gained back most of the weight', 'Gained back all of the weight', or 'put on more than I lost').
 
 ### Key Variables
 
 ## Fear of Weight Gain
 
-Fear of weight gain was assessed via a single item asking the degree to which participants have worried about gaining a little weight, using a likert response scale (0=not at all, 1=a little, 2=a lot, and 3=all the time).
+Fear of weight gain was assessed at Wave 14 and Wave 24 via a single item asking the degree to which participants have worried about gaining a little weight (as little as one kilo).
 
 ### Scoring
+
+Participants scored their fear of weight gain on a 4-point Likert response scale: 'Not at all' (0), 'A little' (1), 'A lot' (2), and 'All the time' (3).
 
 ### Key Variables
 
 ## Weight Intentions, Perception, and Valuation
 
+Weight intentions, perception, and valuation were all asked with the pretense that there is no correct answer and participants should answer how they think. Weight intentions and perception were assessed at ages 14 and 18 while weight valuation was only asked at age 18.
+
+At both Wave 14 and Wave 18, Weight intentions was assessed in 1 item that asked participants about what they intend to do with their weight. Weight perception asks participants to describe their current weight.
+
+Weight valuation, which was asked at age 18, was also a 1-item question that asked how weight has made a difference in how the participant sees oneself.
+
 ### Scoring
+
+Weight intentions was scored using 4 response options: 'I am not trying to do anything about my weight', 'Stay the same', 'Gain weight', or 'Lose weight'.
+
+Weight perception gave a range of 5 responses from 'Very underweight' to 'Very overweight'.
+
+Weight valuation was scored on a 5-point Likert scale from 'Not at all' (1) to 'A lot' (5).
 
 ### Key Variables
 
@@ -106,6 +136,6 @@ Individuals were asked at age 24 how often they 'felt fat' in the past year.
 
 ### Scoring
 
-Response options were Never (0), A little (1), Sometimes (2), A lot (3), and Always (4).
+Response options were 'Never' (0), 'A little' (1), 'Sometimes' (2), 'A lot' (3), and 'Always' (4).
 
 ### Key Variables
