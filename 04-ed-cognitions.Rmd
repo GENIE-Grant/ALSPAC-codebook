@@ -40,9 +40,9 @@ Items are rated on a 5-point Likert scale ranging from 'Strongly Disagree' (0) t
 
 ### Key Variables
 
-`ti_mean.14` Mean thin-ideal internalization score at age 14
+`ti_mean_14` Mean thin-ideal internalization score at age 14
 
-`ti_NA.14` Percent of variables missing from the thin-ideal internalization measure
+*`ti_14_NA_Percent` Percent of variables missing from the thin-ideal internalization measure
 
 ## Pressure to Lose Weight/Pressure to Increase Muscle
 
@@ -54,13 +54,13 @@ Response options for both pressure to lose weight and increase muscle were 'Not 
 
 ### Key Variables
 
-`pressure_lose_sum.167` Sum of pressure to lose weight scale at age 14
+`pressure_lose_sum_14` Sum of pressure to lose weight scale at age 14
 
-`pressure_lose_sum.167_NA_percent` Percent of variables missing from the pressure to lose weight scale
+*`pressure_lose_sum_14_NA_percent` Percent of variables missing from the pressure to lose weight scale
 
-`pressure_musc_sum.167` Sum of pressure to increase muscle scale at age 14
+`pressure_musc_sum_14` Sum of pressure to increase muscle scale at age 14
 
-`pressure_musc_sum.167_NA_percent` Percent of variables missing from the pressure to increase muscle scale
+*`pressure_musc_sum_14_NA_percent` Percent of variables missing from the pressure to increase muscle scale
 
 ## Restrained Eating, External Eating, and Emotional Eating
 
@@ -72,7 +72,7 @@ Depending on the phrasing of the items, responses were either asked on a scale o
 
 ### Key Variables
 
-`restraint_sum.14` Sum of the restrained eating items at age 14
+`restraint_sum_14` Sum of the restrained eating items at age 14
 
 [INSERT RESTRAINT NA VARIABLE]
 
@@ -80,11 +80,12 @@ Depending on the phrasing of the items, responses were either asked on a scale o
 
 [INSERT EXTERNAL NA VARIABLE]
 
-`emo_eat_sum.14` Sum of the emotional eating items at age 14
+`emo_eat_sum_14` Sum of the emotional eating items at age 14
 
-`emo_eat_sum_d.14` Sum of dichotomous responses for emotional eating items
+*`emo_eat_14_NA_percent` Percent of variables missing from the emotional eating subscale
 
-`emo_eat_NA.14` Percent of variables missing from the emotional eating subscale
+`emo_eat_sum_d_14` Sum of dichotomous responses for emotional eating items
+
 
 ## Shape and Weight Concern
 
@@ -102,7 +103,7 @@ Three responses on a 4-point Likert scale were used (from 'very unhappy' (1) or 
 
 ### Key Variables
 
-`wt_shape_concern.14` Sum of weight and shape concern items at age 14
+`wt_shape_concern_14` Sum of weight and shape concern items at age 14
 
 [INSERT W/S CONCERN NA VARIABLE]
 
@@ -124,9 +125,9 @@ Body dissatisfaction was scored using the mean of all 11 items, with higher scor
 
 ### Key Variables
 
-`body_sat_mean.14` Body dissatisfaction mean score at age 14
+`body_sat_mean_14` Body dissatisfaction mean score at age 14
 
-`body_sat_NA.14` Percent of variables missing from the body dissatisfaction measure at age 14
+*`body_sat_14_NA_percent` Percent of variables missing from the body dissatisfaction measure at age 14
 
 ## Dieting
 
@@ -144,14 +145,15 @@ if they gained any of the weight back after the diet ('No, did not regain any of
 ### Key Variables
 
 `diet_freq_14` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 14
+`diet_length_14` Time respondent was on a diet at age 14
 
-`diet_freq.16` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
+`diet_freq_16` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
 
-`diet_length.16` Time respondent was on a diet at age 16
+`diet_length_16` Time respondent was on a diet at age 16
 
-`diet_lost.16` Weight the respondent lost due to diet at age 16
+`diet_lost_16` Weight the respondent lost due to diet at age 16
 
-`diet_regain.16` Weight the respondent gained back, if applicable, after diet at age 16
+`diet_regain_16` Weight the respondent gained back, if applicable, after diet at age 16
 
 ## Fear of Weight Gain
 
@@ -165,9 +167,7 @@ little' (1), 'A lot' (2), and 'All the time' (3).
 
 ### Key Variables
 
-`fear_wtgain.14` Respondent's fear of weight gain at age 14
-
-[INSERT FEAR NA VARIABLE]
+`fear_wtgain_14` Respondent's fear of weight gain at age 14
 
 ## Weight Intentions, Perception, and Valuation
 
@@ -189,15 +189,11 @@ Weight valuation was scored on a 5-point Likert scale from 'Not at all' (1) to '
 
 ### Key Variables
 
-`wt_intent.18` Respondent's intent with weight at age 18
+`wt_intent_18` Respondent's intent with weight at age 18
 
-[INSERT INTENT NA VARIABLE]
+`wt_perception_18` Description of respondent's current weight at age 18
 
-`wt_perception.18` Description of respondent's current weight at age 18
-
-[INSERT PERCEPTION NA VARIABLE]
-
-`wt_valuation.18` Degree to which respondent's weight has made difference to how feel about self in past year at age 18
+`wt_valuation_18` Degree to which respondent's weight has made difference to how feel about self in past year at age 18
 
 [INSERT VALUATION VARIABLE]
 
@@ -211,6 +207,5 @@ Response options were 'Never' (0), 'A little' (1), 'Sometimes' (2), 'A lot' (3),
 
 ### Key Variables
 
-`feel_fat.24` How much respondent has 'felt fat' in the past year at age 24
+`feel_fat_24` How much respondent has 'felt fat' in the past year at age 24
 
-[INSERT FEELING FAT NA VARIABLE]
