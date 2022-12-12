@@ -28,6 +28,8 @@ Responses for figures varying in weight were scored as 'very thin', 'thin', 'ave
 
 ### Key Variables
 
+[INSERT KEY VARIABLES]
+
 ## Thin-ideal Internalization
 
 Thin-ideal internalization at age 14 was assessed using the Ideal-Body Stereotype Scale-Revised (IBSS-R) [@sticeTestDualPathway1996] Girls and boys were both asked six questions, three of which were the same and three of which were gender-specific, assessing the perceived attractiveness of same-sex individuals based on physical characteristics (e.g. being 'lean', 'tall', 'petite').
@@ -38,11 +40,9 @@ Items are rated on a 5-point Likert scale ranging from 'Strongly Disagree' (0) t
 
 ### Key Variables
 
-`ti_mean.14` Mean thin-ideal
-internalization score
+`ti_mean.14` Mean thin-ideal internalization score at age 14
 
-`ti_NA.14` Percent of variables missing
-from the thin-ideal internalization measure
+`ti_NA.14` Percent of variables missing from the thin-ideal internalization measure
 
 ## Pressure to Lose Weight/Pressure to Increase Muscle
 
@@ -54,13 +54,13 @@ Response options for both pressure to lose weight and increase muscle were 'Not 
 
 ### Key Variables
 
-`pressure_lose_sum.14` Sum of pressure to lose weight scale
+`pressure_lose_sum.167` Sum of pressure to lose weight scale at age 14
 
-`pressure_lose_NA.14` Percent of variables missing from the pressure to lose weight scale
+`pressure_lose_sum.167_NA_percent` Percent of variables missing from the pressure to lose weight scale
 
-`pressure_musc_sum.14` Sum of pressure to increase muscle scale
+`pressure_musc_sum.167` Sum of pressure to increase muscle scale at age 14
 
-`pressure_musc_NA.14` Percent of variables missing from the pressure to increase muscle scale
+`pressure_musc_sum.167_NA_percent` Percent of variables missing from the pressure to increase muscle scale
 
 ## Restrained Eating, External Eating, and Emotional Eating
 
@@ -72,11 +72,17 @@ Depending on the phrasing of the items, responses were either asked on a scale o
 
 ### Key Variables
 
-`restraint_sum.14` Sum of the restrained eating items
+`restraint_sum.14` Sum of the restrained eating items at age 14
 
-`emo_eat_sum.14` Sum of the emotional eating items
+[INSERT RESTRAINT NA VARIABLE]
 
-`emo_eat_sum_d.14` Sum of dichotomous responses
+`ext_eat_sum_14` Sum of the external eating items at age 14
+
+[INSERT EXTERNAL NA VARIABLE]
+
+`emo_eat_sum.14` Sum of the emotional eating items at age 14
+
+`emo_eat_sum_d.14` Sum of dichotomous responses for emotional eating items
 
 `emo_eat_NA.14` Percent of variables missing from the emotional eating subscale
 
@@ -92,9 +98,13 @@ Shape and Weight concern were assessed at age 14 using items from the McNight Ri
 
 ### Scoring
 
-Four responses on a 4-point Likert scale were used (from 'very unhappy' (1) or 'not at all' (1) to 'very happy' (4) or 'a lot/all the time' (4)). The three questions were summed to generate a continuous score.
+Three responses on a 4-point Likert scale were used (from 'very unhappy' (1) or 'not at all' (1) to 'very happy' (4) or 'a lot/all the time' (4)). The three questions were summed to generate a continuous score.
 
 ### Key Variables
+
+`wt_shape_concern.14` Sum of weight and shape concern items at age 14
+
+[INSERT W/S CONCERN NA VARIABLE]
 
 ## Body Dissatisfaction
 
@@ -157,6 +167,8 @@ little' (1), 'A lot' (2), and 'All the time' (3).
 
 `fear_wtgain.14` Respondent's fear of weight gain at age 14
 
+[INSERT FEAR NA VARIABLE]
+
 ## Weight Intentions, Perception, and Valuation
 
 Weight intentions, perception, and valuation were all asked with the pretense that there is no
@@ -179,9 +191,15 @@ Weight valuation was scored on a 5-point Likert scale from 'Not at all' (1) to '
 
 `wt_intent.18` Respondent's intent with weight at age 18
 
+[INSERT INTENT NA VARIABLE]
+
 `wt_perception.18` Description of respondent's current weight at age 18
 
+[INSERT PERCEPTION NA VARIABLE]
+
 `wt_valuation.18` Degree to which respondent's weight has made difference to how feel about self in past year at age 18
+
+[INSERT VALUATION VARIABLE]
 
 ## Feeling Fat
 
@@ -194,3 +212,5 @@ Response options were 'Never' (0), 'A little' (1), 'Sometimes' (2), 'A lot' (3),
 ### Key Variables
 
 `feel_fat.24` How much respondent has 'felt fat' in the past year at age 24
+
+[INSERT FEELING FAT NA VARIABLE]
