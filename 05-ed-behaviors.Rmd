@@ -6,7 +6,7 @@ Scoring for eating disorder behaviors is completed with a single scoresheet, `ed
 
 | Behavior \| Age \| Measure \|
 
-\|:----------------\|:----------------\|:----------------\| Binge Eating \| 14, 16, 18, 24 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about the frequency in the past year that they ate a very large amount of food and those who answered 'yes' answered a second question inquiring about whether they felt out of control during those episodes. Binge eating was recorded for those who answered 'yes' to both questions. \| \| \| Purging \| 14 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about how often in the past year they had made themselves sick or used laxatives in order to control weight or shape in the past year. \| \| \| Dieting/Restriction \| 14 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about if they had gone on a diet to lose weight or to keep from gaining weight within the past year. \| \| \| Excessive Exercise \| 14, 16, 18, 24 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey inquiring about if they exercised to lose weight or avoid gaining weight. Frequency was assessed at age 24. \| \| \| Fasting \| 14 \| \| \|
+\|:----------------\|:----------------\|:----------------\|: \| \| \| Binge Eating \| 14, 16, 18, 24 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about the frequency in the past year that they ate a very large amount of food and those who answered 'yes' answered a second question inquiring about whether they felt out of control during those episodes. Binge eating was recorded for those who answered 'yes' to both questions. \| \| \| Purging \| 14 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about how often in the past year they had made themselves sick or used laxatives in order to control weight or shape in the past year. \| \| \| Dieting/Restriction \| 14 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about if they had gone on a diet to lose weight or to keep from gaining weight within the past year. \| \| \| Excessive Exercise \| 14, 16, 18, 24 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey inquiring about if they exercised to lose weight or avoid gaining weight. Frequency was assessed at age 24. \| \| \| Fasting \| 14 \| \| \|
 
 ## Binge Eating
 
@@ -30,7 +30,15 @@ Based on the sum score, two additional variables based on the sum score. The fir
 
 `binge_criteria_met.x` - dichotomous variable indicating whether full threshold binge eating disorder symtpoms are met
 
-## Compensatory Behaviors
+## Purging
+
+### Background
+
+### Scoring
+
+### Key Variables
+
+## Dieting/Restriction
 
 ### Background
 
@@ -52,6 +60,8 @@ At age 24, participants were asked the frequency with which they exercised to lo
 
 Issues that are associated with exercise were also reported at ages 14,16, 18, and 24 years. At all assessment points, participants reported whether exercise interferes with work/school (14,16,18), or their daily routine (24). At ages 14 and 24, participants also reported whether they exercised to lose weight even when sick or injured. At ages 16 and 18 years, participants reported whether they felt guilty about missing an exercise session -- see Table \@ref(tab:tab2) . Responses options for exercise issues were 'No', 'yes - Sometimes', or 'Yes - Frequently'.
 
+### Key Variables
+
 ```{r tab2}
 x <- tibble(Age = c(14,16,18,24), Interferes = c('x','x','x','x'), Sick_Injured = c('x',' ',' ', 'x'), Guilt = c('' ,'x','x', '')) 
 
@@ -59,10 +69,18 @@ kableExtra::kbl(x, caption = 'Exercise Issues Assessed at Each Age') %>%
   kableExtra::kable_styling()
 ```
 
-Exercise issues are deemmed to be 'present' at each time point if an individual endorses: (1) exercise interfering with work/school sometimes or more OR frequent guilt when missing an exercise session at ages 16 and 18 years and (2) exercise interfering with work/school/daily routine sometimes or more OR exercising even when sick/injured sometimes or more at ages 14 and 24 years.
+Exercise issues are deemed to be 'present' at each time point if an individual endorses: (1) exercise interfering with work/school sometimes or more OR frequent guilt when missing an exercise session at ages 16 and 18 years and (2) exercise interfering with work/school/daily routine sometimes or more OR exercising even when sick/injured sometimes or more at ages 14 and 24 years.
 
 The presence of maladaptive exercise in this study was defined as exercising for weight loss **sometimes or frequently** and at least one **exercise issue** defined as present at each time point. Frequency of exercise for weight loss as sometimes or more was chosen for this definition as (1) existing literature suggests that frequency of exercise may be less important than cognitive features in defining exercise risk in the context of eating disorders [@adkinsDoesExcessiveCompulsive2005; @mondUpdateDefinitionExcessive2006] and (2) the nature of the epidemiological sample and the concomitant goals of this paper are such that we are interested in identifying early risk indicators, which may be best captured via a broad (vs. narrow) definition of maladaptive exercise. The primary variable to define maladaptive exercise was derived as described, resulting in a dichotomous outcome (0 = Absent, 1 = Present).
 
 #### Exercise Groups
 
-Exercise groups over time are defined for descriptive analyses and transition states, replicating groups defined in @schaumbergProspectiveAssociationsDriven2022. Those who report no exericse for weight loss at each time point are placed in a 'No Exercise for Weight Loss' group, those who report exercise for weight loss at least sometimes, but do not meet criteria for maladaptive exercise are placed in an 'Exercise for Weight Loss' group, and those meeting maladaptive exercise criteria are placed in the 'Maladaptive Exercise' group.
+Exercise groups over time are defined for descriptive analyses and transition states, replicating groups defined in @schaumbergProspectiveAssociationsDriven2022. Those who report no exercise for weight loss at each time point are placed in a 'No Exercise for Weight Loss' group, those who report exercise for weight loss at least sometimes, but do not meet criteria for maladaptive exercise are placed in an 'Exercise for Weight Loss' group, and those meeting maladaptive exercise criteria are placed in the 'Maladaptive Exercise' group.
+
+## Fasting
+
+### Background
+
+### Scoring
+
+### Key Variables
