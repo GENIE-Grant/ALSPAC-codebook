@@ -4,11 +4,7 @@ Eating Disorder Behaviors Were Assessed at Ages 14, 16, 18, and 24.
 
 Scoring for eating disorder behaviors is completed with a single scoresheet, `ed_behaviors_scoresheet.xlsx`, resulting in a data frame which contains all eating disorder behavior variables, titled `ed_behaviors` in the cleaned dataset.
 
-| Behavior \| Age \| Measure \|
-
-\|:----------------\|:----------------\|:----------------\|: \| \| \| Binge Eating \| 14, 16, 18, 24 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about the frequency in the past year that they ate a very large amount of food and those who answered 'yes' answered a second question inquiring about whether they felt out of control during those episodes. Binge eating was recorded for those who answered 'yes' to both questions. \| \| \| Purging \| 14 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about how often in the past year they had made themselves sick or used laxatives in order to control weight or shape in the past year. \| \| \| Dieting/Restriction \| 14 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey about if they had gone on a diet to lose weight or to keep from gaining weight within the past year. \| \| \| Excessive Exercise \| 14, 16, 18, 24 \| Participants were asked questions adapted from the Youth Risk Behavior Surveillance System Survey inquiring about if they exercised to lose weight or avoid gaining weight. Frequency was assessed at age 24. \| \| \| Fasting \| 14 \| \| \|
-
-## Binge Eating
+### Binge Eating
 
 Binge eating behavior was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at ages 14, 16, 18, and 24. Questions were adapted to inquire about the previous year [@micaliAdolescentEatingDisorder2015] and have been validated in a sample of adolescents in the Growing Up Today Study [@fieldComparisonSelfreportInterview2004]. Binge Eating Behavior in the ALSPAC data has previously been scored and examined in several papers [@micaliAreObesityRisk2015; @micaliEatingDisorderBehaviours2017; @micaliAdolescentEatingDisorder2015; @schaumbergAnxietyDisorderSymptoms2018; @yilmazPredictingEatingDisorder2022]. At ages 14, 16, and 18, Binge eating was assessed using a two-part question. Participants were first asked about the frequency during the past year of eating a very large amount of food. Those who answered yes were asked a follow-up question that asked whether they felt out of control during these episodes, i.e., whether they could not stop eating even if they wanted to stop, along with five other questions regarding characterization of binge eating episodes (e.g. how often they felt guilty after a binge, how often they ate fast or faster than normal during a binge). Participants who reported any binge eating were then asked to rate five binge eating symptoms (eating faster than normal, stomach hurting or feeling sick, eating large amounts of food, hiding amount eating when on a binge, and feeling guilty after a binge) as to whether they happened never, sometimes, or usually. At age 24, participants were asked how often they went on eating binges in the past year (never, \<1x/mo, 1-3x/mo, 1x/wk, or \>1x/wk), and, if so, whether a period of frequent binge eating lasted at least three months.
 
@@ -34,6 +30,8 @@ Based on the sum score, two additional variables based on the sum score. The fir
 
 ### Background
 
+Purging was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at age 14, 16 and 18. Participants were asked about how often they had made themselves sick or used laxatives in order to control weight or shape in the past year.
+
 ### Scoring
 
 ### Key Variables
@@ -41,6 +39,8 @@ Based on the sum score, two additional variables based on the sum score. The fir
 ## Dieting/Restriction
 
 ### Background
+
+Dieting and restriction was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at age 14, 16 and 18. Participants were asked if they had gone on a diet to lose weight or to keep from gaining weight within the past year.
 
 ### Scoring
 
@@ -80,6 +80,8 @@ Exercise groups over time are defined for descriptive analyses and transition st
 ## Fasting
 
 ### Background
+
+Fasting was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at age 14, 16 and 18. Participants reported their frequency of fasting to lose or avoid gaining weight. Participants that endorsed any fasting at age 14, 16, or 18 were coded as coded as 'yes' to fasting for weight loss.
 
 ### Scoring
 
