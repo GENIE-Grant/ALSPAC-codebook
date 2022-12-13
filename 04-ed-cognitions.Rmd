@@ -1,7 +1,7 @@
 # Cognitive Eating Disorder Features
 
 | Construct                   | Age        | Measure                                                                                                                                                                                   | ED Cognitive Symptom Diagnostic Criteria Cutoffs                                                             |
-|:-----------|:-----------|:-------------------------------|:----------------|
+|:--------------|:--------------|:---------------------------|:--------------|
 | Body Image Discrepancy      | 10         | Stunkard Figure Rating Scale                                                                                                                                                              |                                                                                                              |
 | Thin ideal internalization  | 14         | IBSS-R appearance ideals rated on a 5-point Likert scale from 'strongly agree' to 'strongly disagree.'                                                                                    |                                                                                                              |
 | Pressure to Lose Weight     | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
@@ -28,7 +28,9 @@ Responses for figures varying in weight were scored as 'very thin', 'thin', 'ave
 
 ### Key Variables
 
-[INSERT KEY VARIABLES]
+`body_percept_10` How respondent perceives body based on the five figures
+
+`body_desire_10` How respondent desires to look based on the five figures
 
 ## Thin-ideal Internalization
 
@@ -42,7 +44,7 @@ Items are rated on a 5-point Likert scale ranging from 'Strongly Disagree' (0) t
 
 `ti_mean_14` Mean thin-ideal internalization score at age 14
 
-*`ti_14_NA_Percent` Percent of variables missing from the thin-ideal internalization measure
+`ti_mean_14_an` Percent of variables missing from the thin-ideal internalization measure
 
 ## Pressure to Lose Weight/Pressure to Increase Muscle
 
@@ -56,11 +58,11 @@ Response options for both pressure to lose weight and increase muscle were 'Not 
 
 `pressure_lose_sum_14` Sum of pressure to lose weight scale at age 14
 
-*`pressure_lose_sum_14_NA_percent` Percent of variables missing from the pressure to lose weight scale
+`pressure_lose_sum_14_an` Percent of variables missing from the pressure to lose weight scale
 
 `pressure_musc_sum_14` Sum of pressure to increase muscle scale at age 14
 
-*`pressure_musc_sum_14_NA_percent` Percent of variables missing from the pressure to increase muscle scale
+`pressure_musc_sum_14_an` Percent of variables missing from the pressure to increase muscle scale
 
 ## Restrained Eating, External Eating, and Emotional Eating
 
@@ -74,18 +76,19 @@ Depending on the phrasing of the items, responses were either asked on a scale o
 
 `restraint_sum_14` Sum of the restrained eating items at age 14
 
-[INSERT RESTRAINT NA VARIABLE]
+`restraint_sum_14_an`Percent of variables missing from the restrained eating subscale
 
 `ext_eat_sum_14` Sum of the external eating items at age 14
 
-[INSERT EXTERNAL NA VARIABLE]
+`ext_eat_sum_14_an` Percent of variables missing from the external eating subscale
 
 `emo_eat_sum_14` Sum of the emotional eating items at age 14
 
-*`emo_eat_14_NA_percent` Percent of variables missing from the emotional eating subscale
+`emo_eat_sum_14_an` Percent of variables missing from the emotional eating subscale
 
 `emo_eat_sum_d_14` Sum of dichotomous responses for emotional eating items
 
+`emo_eat_sum_d_14_an`Percent of variables missing from the dichotomous responses for emotional eating items
 
 ## Shape and Weight Concern
 
@@ -105,13 +108,11 @@ Three responses on a 4-point Likert scale were used (from 'very unhappy' (1) or 
 
 `wt_shape_concern_14` Sum of weight and shape concern items at age 14
 
-[INSERT W/S CONCERN NA VARIABLE]
+`wt_shape_concern_14_an` Percent of variables missing from the shape and weight concern scale
 
 ## Body Dissatisfaction
 
-Body Dissatisfaction was assessed at ages 14, 18, and 24. An 11-item scale adapted from the satisfaction and dissatisfaction with body parts scale [@sticeProspectiveTestDualpathway2001], which has been used in several previous studies involving the ALSPAC Cohort ([@bornioliAdolescentBodyDissatisfaction2019];
-[@bornioliBodyDissatisfactionPredicts2021]; [@schaumbergAnxietyDisorderSymptoms2019];
-[@schaumbergProspectiveAssociationsChildhood2021]), was given at Wave 14. Among the 11 items, one item differs between the sexes (satisfaction with 'breasts' is specified for girls and 'build' for boys). Two items address overall body satisfaction with weight and figure, and the remaining items evaluate satisfaction with specific body parts.
+Body Dissatisfaction was assessed at ages 14, 18, and 24. An 11-item scale adapted from the satisfaction and dissatisfaction with body parts scale [@sticeProspectiveTestDualpathway2001], which has been used in several previous studies involving the ALSPAC Cohort ([@bornioliAdolescentBodyDissatisfaction2019]; [@bornioliBodyDissatisfactionPredicts2021]; [@schaumbergAnxietyDisorderSymptoms2019]; [@schaumbergProspectiveAssociationsChildhood2021]), was given at Wave 14. Among the 11 items, one item differs between the sexes (satisfaction with 'breasts' is specified for girls and 'build' for boys). Two items address overall body satisfaction with weight and figure, and the remaining items evaluate satisfaction with specific body parts.
 
 Participants were not asked about body satisfaction at age 16. At Wave 18 and 24, participants completed 1 item that addressed happiness levels regarding weight and shape in the past year.
 
@@ -127,7 +128,7 @@ Body dissatisfaction was scored using the mean of all 11 items, with higher scor
 
 `body_sat_mean_14` Body dissatisfaction mean score at age 14
 
-*`body_sat_14_NA_percent` Percent of variables missing from the body dissatisfaction measure at age 14
+`body_sat_mean_14_an` Percent of variables missing from the body dissatisfaction measure at age 14
 
 ## Dieting
 
@@ -139,12 +140,12 @@ To assess dieting, participants were asked a set of questions regarding dieting 
 
 When asked if the participant has gone on a diet in the past year, responses range from 'Always on a diet' (1) to 'never' (5). If respondent selects any answer other than 'never', they are then prompted to respond how long they engaged in the diet(s) ('less than a week', '1-3 weeks', '1-3 months', or '3 or 4 months') and the type of diet(s) they used.
 
-The participant also answers how many pounds they lost while on to the diet(s) and, if they did lose weight,
-if they gained any of the weight back after the diet ('No, did not regain any of the weight', 'Gained back a little of the weight", 'Gained back most of the weight', 'Gained back all of the weight', or 'put on more than I lost').
+The participant also answers how many pounds they lost while on to the diet(s) and, if they did lose weight, if they gained any of the weight back after the diet ('No, did not regain any of the weight', 'Gained back a little of the weight", 'Gained back most of the weight', 'Gained back all of the weight', or 'put on more than I lost').
 
 ### Key Variables
 
 `diet_freq_14` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 14
+
 `diet_length_14` Time respondent was on a diet at age 14
 
 `diet_freq_16` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
@@ -157,13 +158,11 @@ if they gained any of the weight back after the diet ('No, did not regain any of
 
 ## Fear of Weight Gain
 
-Fear of weight gain was assessed at Wave 14 and Wave 24 via a single item asking the degree to which
-participants have worried about gaining a little weight (as little as one kilo).
+Fear of weight gain was assessed at Wave 14 and Wave 24 via a single item asking the degree to which participants have worried about gaining a little weight (as little as one kilo).
 
 ### Scoring
 
-Participants scored their fear of weight gain on a 4-point Likert response scale: 'Not at all' (0), 'A
-little' (1), 'A lot' (2), and 'All the time' (3).
+Participants scored their fear of weight gain on a 4-point Likert response scale: 'Not at all' (0), 'A little' (1), 'A lot' (2), and 'All the time' (3).
 
 ### Key Variables
 
@@ -171,11 +170,9 @@ little' (1), 'A lot' (2), and 'All the time' (3).
 
 ## Weight Intentions, Perception, and Valuation
 
-Weight intentions, perception, and valuation were all asked with the pretense that there is no
-correct answer and participants should answer how they think. Weight intentions and perception were assessed at ages 14 and 18 while weight valuation was only asked at age 18.
+Weight intentions, perception, and valuation were all asked with the pretense that there is no correct answer and participants should answer how they think. Weight intentions and perception were assessed at ages 14 and 18 while weight valuation was only asked at age 18.
 
-At both Wave 14 and Wave 18, Weight intentions was assessed in 1 item that asked participants about what
-they intend to do with their weight. Weight perception asks participants to describe their current weight.
+At both Wave 14 and Wave 18, Weight intentions was assessed in 1 item that asked participants about what they intend to do with their weight. Weight perception asks participants to describe their current weight.
 
 Weight valuation, which was asked at age 18, was also a 1-item question that asked how weight has made a difference in how the participant sees oneself.
 
@@ -195,8 +192,6 @@ Weight valuation was scored on a 5-point Likert scale from 'Not at all' (1) to '
 
 `wt_valuation_18` Degree to which respondent's weight has made difference to how feel about self in past year at age 18
 
-[INSERT VALUATION VARIABLE]
-
 ## Feeling Fat
 
 Individuals were asked at age 24 how often they 'felt fat' in the past year.
@@ -208,4 +203,3 @@ Response options were 'Never' (0), 'A little' (1), 'Sometimes' (2), 'A lot' (3),
 ### Key Variables
 
 `feel_fat_24` How much respondent has 'felt fat' in the past year at age 24
-
