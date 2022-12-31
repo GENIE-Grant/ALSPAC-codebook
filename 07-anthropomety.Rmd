@@ -22,8 +22,8 @@ For scoring purposes, all raw variables are included in cleaned data (renamed to
 
 BMIz scores prior to age 18 are noted as:
 
-`BMIz_clinic.X` Objective obtained BMI at clinic where X = age in years at time when assessment was targeted to be completed, rounded to one tenth. 
+`BMIz_clinic.X` Objective obtained BMI at clinic where X = age in months at time when assessment was targeted to be completed, rounded to one tenth. 
 
-`BMIz_sr.X` BMIz obtained by self- or parent-reported height and weight where X = age in years at time when assessment was targeted to be completed, rounded to one tenth.  
+`BMIz_sr.X` BMIz obtained by self- or parent-reported height and weight where X = age in months at time when assessment was targeted to be completed.  
 
 
