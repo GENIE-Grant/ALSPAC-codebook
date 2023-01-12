@@ -81,8 +81,18 @@ Exercise groups over time are defined for descriptive analyses and transition st
 
 ### Background
 
-Fasting was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at age 14, 16 and 18. Participants reported their frequency of fasting to lose or avoid gaining weight. Participants that endorsed any fasting at age 14, 16, or 18 were coded as coded as 'yes' to fasting for weight loss.
+Fasting was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at age 14, 16, 18, and 24. Participants reported their frequency of fasting to lose or avoid gaining weight. Participants that endorsed any fasting at age 14, 16, 18, or 24 were coded as coded as 'yes' to fasting for weight loss.
 
 ### Scoring
 
+A response of yes '1' to any instances of fasting at any age resulted in follow up questions to determine the frequency of fasting.
+
 ### Key Variables
+
+`fasting_any.167`- fasting at age 14 - any reported
+
+`fasting_monthly.167`- fasting at age 14 - at least once per month
+
+`fasting_monthly.weekly`- fasting at age 14 - at least once per week
+
+??
