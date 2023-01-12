@@ -178,7 +178,7 @@ The participant also answers how many pounds they lost while on to the diet(s) a
 
 `diet_freq.167` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 14
 
-`diet_length.167.2` Length of time respondent was on a diet at age 14
+`diet_length_2.167` Length of time respondent was on a diet at age 14
 
 `diet_freq.198` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
 
