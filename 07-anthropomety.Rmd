@@ -26,4 +26,5 @@ BMIz scores prior to age 18 are noted as:
 
 `BMIz_sr.X` BMIz obtained by self- or parent-reported height and weight where X = age in years at time when assessment was targeted to be completed, rounded to one tenth.  
 
+`BMI_bestavaial.X` Best available BMI over the previous 12 months of age
 
