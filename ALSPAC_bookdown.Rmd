@@ -99,53 +99,43 @@ Data is scored using scoresheets (.csv files) and an accompanying R script. All 
 
 # Cognitive Eating Disorder Features
 
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Construct                   | Age              | Measure                                                                                                                                                                                   | ED Cognitive Symptom Diagnostic Criteria Cutoffs                                                             |
-+:============================+:=================+:==========================================================================================================================================================================================+:=============================================================================================================+
-| Body Image Discrepancy      | 10 (128 months)  | Stunkard Figure Rating Scale                                                                                                                                                              |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Thin ideal internalization  | 14 (167 months)  | IBSS-R appearance ideals rated on a 5-point Likert scale from 'strongly agree' to 'strongly disagree.'                                                                                    |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Pressure to Lose Weight     | 14 (167 months)  | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Pressure to Increase Muscle | 14 (167 months)  | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| External Eating             | 14 (167 months)  | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Restrained Eating           | 14 (167 months)  | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Emotional Eating            | 14 (167 months)  | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Weight/Shape Concern        | 14 (167 months)  | Assessed using 2-items from the McKnight risk survey asking how how happy participants are with their bodies and if weight has made a difference in how they have felt about their bodies | **'Very unhappy' with weight and shape or weight making 'A lot/quite a lot' of difference in how one feels** |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Body Dissatisfaction        | 14 (167 months), | Satisfaction with body parts on a 5-point Likert scale, from 'extremely satisfied' to 'extremely dissatisfied' with higher values indicating higher dissatisfaction.                      | **Average score of 'moderately dissatisfied' or higher**                                                     |
-|                             |                  |                                                                                                                                                                                           |                                                                                                              |
-|                             | 18 (222 months), |                                                                                                                                                                                           |                                                                                                              |
-|                             |                  |                                                                                                                                                                                           |                                                                                                              |
-|                             | 24 (288 months)  |                                                                                                                                                                                           |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Dieting                     | 14 (167 months), | Frequency during the past year young person went on a diet to lose weight/keep from gaining weight.                                                                                       | **Dieting reported in the past year 'several times' or more**                                                |
-|                             |                  |                                                                                                                                                                                           |                                                                                                              |
-|                             | 16 (198 months), |                                                                                                                                                                                           |                                                                                                              |
-|                             |                  |                                                                                                                                                                                           |                                                                                                              |
-|                             | 18 (222 months)  |                                                                                                                                                                                           |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Fear of Weight Gain         | 14 (167 months), | Participants reported the degree they worried about gaining a little weight (two pounds) in the past year.                                                                                | **Fear of weight gain endorsed 'a lot' or 'all the time'**                                                   |
-|                             |                  |                                                                                                                                                                                           |                                                                                                              |
-|                             | 24 (288 months)  |                                                                                                                                                                                           |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Weight Intentions           | 14 (167 months), | Participants reported what they are trying to do with their weight.                                                                                                                       | **Weight loss intentions reported**                                                                          |
-|                             |                  |                                                                                                                                                                                           |                                                                                                              |
-|                             | 18 (222 months)  |                                                                                                                                                                                           |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Weight Perception           | 14 (167 months), | Participants reported their perception of their weight.                                                                                                                                   |                                                                                                              |
-|                             |                  |                                                                                                                                                                                           |                                                                                                              |
-|                             | 18 (222 months)  |                                                                                                                                                                                           |                                                                                                              |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Weight Valuation            | 18 (222 months)  | Participants reported the degree to which their weight has made a difference to how they feel about themselves.                                                                           | **Weight valuation reported 'somewhat' or more**                                                             |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-| Feeling Fat                 | 24 (288 months)  | Participant reported the frequency that they have felt fat in the past year.                                                                                                              | **Feeling fat reported 'sometimes' or more**                                                                 |
-+-----------------------------+------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+<<<<<<< HEAD
+| Construct                   | Age        | Measure                                                                                                                                                                                   | ED Cognitive Symptom Diagnostic Criteria Cutoffs                                                             |
+|:--------------|:--------------|:---------------------------|:--------------|
+| Body Image Discrepancy      | 10         | Stunkard Figure Rating Scale                                                                                                                                                              |                                                                                                              |
+| Thin ideal internalization  | 14         | IBSS-R appearance ideals rated on a 5-point Likert scale from 'strongly agree' to 'strongly disagree.'                                                                                    |                                                                                                              |
+| Pressure to Lose Weight     | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
+| Pressure to Increase Muscle | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                              |
+| External Eating             | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
+| Restrained Eating           | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
+| Emotional Eating            | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                              |
+| Weight/Shape Concern        | 14         | Assessed using 2-items from the McKnight risk survey asking how how happy participants are with their bodies and if weight has made a difference in how they have felt about their bodies | **'Very unhappy' with weight and shape or weight making 'A lot/quite a lot' of difference in how one feels** |
+| Body Dissatisfaction        | 14, 18, 24 | Satisfaction with body parts on a 5-point Likert scale, from 'extremely satisfied' to 'extremely dissatisfied' with higher values indicating higher dissatisfaction.                      | **Average score of 'moderately dissatisfied' or higher**                                                     |
+| Dieting                     | 14, 16, 18 | Frequency during the past year young person went on a diet to lose weight/keep from gaining weight.                                                                                       | **Dieting reported in the past year 'several times' or more**                                                |
+| Fear of Weight Gain         | 14, 24     | Participants reported the degree they worried about gaining a little weight (two pounds) in the past year.                                                                                | **Fear of weight gain endorsed 'a lot' or 'all the time'**                                                   |
+| Weight Intentions           | 14, 18     | Participants reported what they are trying to do with their weight.                                                                                                                       | **Weight loss intentions reported**                                                                          |
+| Weight Perception           | 14, 18     | Participants reported their perception of their weight.                                                                                                                                   |                                                                                                              |
+| Weight Valuation            | 18         | Participants reported the degree to which their weight has made a difference to how they feel about themselves.                                                                           | **Weight valuation reported 'somewhat' or more**                                                             |
+| Feeling Fat                 | 24         | Participant reported the frequency that they have felt fat in the past year.                                                                                                              | **Feeling fat reported 'sometimes' or more**                                                                 |
+=======
+| Construct                   | Age        | Measure                                                                                                                                                                                   | ED Cognitive Symptom Diagnostic Criteria Cutoffs                                                         |
+|:-----------------|:-----------------|:-------------------|:-----------------|
+| Body Image Discrepancy      | 10         | Stunkard Figure Rating Scale                                                                                                                                                              |                                                                                                          |
+| Thin ideal internalization  | 14         | IBSS-R appearance ideals rated on a 5-point Likert scale from 'strongly agree' to 'strongly disagree.'                                                                                    |                                                                                                          |
+| Pressure to Lose Weight     | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                          |
+| Pressure to Increase Muscle | 14         | Perceived Sociocultural Pressure Scale.                                                                                                                                                   |                                                                                                          |
+| External Eating             | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                          |
+| Restrained Eating           | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                          |
+| Emotional Eating            | 14         | Dutch Eating Behavior Questionnaire (DEBQ)                                                                                                                                                |                                                                                                          |
+| Weight/Shape Concern        | 14         | Assessed using 3 items from the McKnight risk survey asking how how happy participants are with their bodies and if weight has made a difference in how they have felt about their bodies | **'Very unhappy' with weight or shape, and spending 'A lot/quite a lot' of time concerned about weight** |
+| Body Dissatisfaction        | 14, 18, 24 | Satisfaction with body parts on a 5-point Likert scale, from 'extremely satisfied' to 'extremely dissatisfied' with higher values indicating higher dissatisfaction.                      | **Average score of 'moderately dissatisfied' or higher**                                                 |
+| Dieting                     | 14, 16, 18 | Frequency during the past year young person went on a diet to lose weight/keep from gaining weight.                                                                                       | **Dieting reported in the past year 'several times' or more**                                            |
+| Fear of Weight Gain         | 14, 24     | Participants reported the degree they worried about gaining a little weight (two pounds) in the past year.                                                                                | **Fear of weight gain endorsed 'a lot' or 'all the time'**                                               |
+| Weight Intentions           | 14, 18     | Participants reported what they are trying to do with their weight.                                                                                                                       | **Weight loss intentions reported**                                                                      |
+| Weight Perception           | 14, 18     | Participants reported their perception of their weight.                                                                                                                                   |                                                                                                          |
+| Weight Valuation            | 18         | Participants reported the degree to which their weight has made a difference to how they feel about themselves.                                                                           | **Weight valuation reported 'somewhat' or more**                                                         |
+| Feeling Fat                 | 24         | Participant reported the frequency that they have felt fat in the past year.                                                                                                              | **Feeling fat reported 'sometimes' or more**                                                             |
+>>>>>>> ad3b376919181122df32fe4d48ca7baa19386ca8
 
 ## Body Discrepancy
 
@@ -157,9 +147,9 @@ Responses for figures varying in weight were scored as 'very thin', 'thin', 'ave
 
 ### Key Variables
 
-`body_percept.128` Respondent's perception of his/her body shape at age 10
+`body_percept_10` How respondent perceives body based on the five figures
 
-`body_desire.128` Respondent's desired body shape at age 10
+`body_desire_10` How respondent desires to look based on the five figures
 
 ## Thin-ideal Internalization
 
@@ -167,99 +157,126 @@ Thin-ideal internalization at age 14 was assessed using the Ideal-Body Stereotyp
 
 ### Scoring
 
+<<<<<<< HEAD
+Items are rated on a 5-point Likert scale ranging from 'Strongly Disagree' (0) to 'Strongly Agree' (4) [@calzoSexualOrientationDisparities2018].
+=======
 Items are rated on a 5-point Likert scale ranging from 'Strongly Disagree' (0) to 'Strongly Agree' (4) [@calzoSexualOrientationDisparities2018]. The ten items are averaged to form an overall thin-ideal internalization score.
+>>>>>>> 71a47610f9f3c082e171c9305315dcf48969c7cc
 
 ### Key Variables
 
-`ti_mean.167` Mean thin-ideal internalization score at age 14
+`ti_mean_14` Mean thin-ideal internalization score at age 14
 
-`ti_mean.167.na` Percent of variables missing from the thin-ideal internalization measure
+`ti_mean_14_an` Percent of variables missing from the thin-ideal internalization measure
 
 ## Pressure to Lose Weight/Pressure to Increase Muscle
 
-Pressure to lose weight and to increase muscle were both assessed at age 14 using an adapted version of the Perceived Sociocultural Pressure Scale [@sticeModelingEatingPathology1998]. Participants were asked the extent to which they have felt pressures from friends, family, partners, and the media to lose weight and increase their muscle size. Female participants were only asked about pressures relating to weight while male participants were asked about both pressures relating to weight and muscle.
+Pressure to lose weight and to increase muscle were both assessed at age 14 using an adapted version of the Perceived Sociocultural Pressure Scale [\@sticeModelingEatingPathology1998]. Participants were asked the extent to which they have felt pressures from friends, family, partners, and the media to lose weight and increase their muscle size. Female participants were only asked about pressures relating to weight while male participants were asked about both pressures relating to weight and muscle.
 
 ### Scoring
 
+<<<<<<< HEAD
+Response options for both pressure to lose weight and increase muscle were 'Not at all' (1), 'A little' (2), 'Quite a lot' (3), and 'A lot' (4).
+
+### Key Variables
+
+=======
 Response options for both pressure to lose weight and increase muscle were 'Not at all' (1), 'A little' (2), 'Quite a lot' (3), and 'A lot' (4). Scores for each assessment are averaged to form an average score of pressure to lose weight and an average score of pressure to increase muscle.
 
 ### Key Variables
 
-`pressure_lose_sum.167` Sum of pressure to lose weight scale at age 14
+`pressure_lose_sum_14` Sum of pressure to lose weight scale at age 14
 
-`pressure_lose_sum.167.na` Percent of variables missing from the pressure to lose weight scale
+`pressure_lose_sum_14_an` Percent of variables missing from the pressure to lose weight scale
 
-`pressure_musc_sum.167` Sum of pressure to increase muscle scale at age 14
+`pressure_musc_sum_14` Sum of pressure to increase muscle scale at age 14
 
-`pressure_musc_sum.167.na` Percent of variables missing from the pressure to gain muscle scale
+`pressure_musc_sum_14_an` Percent of variables missing from the pressure to increase muscle scale
 
+>>>>>>> 71a47610f9f3c082e171c9305315dcf48969c7cc
 ## Restrained Eating, External Eating, and Emotional Eating
 
 Restrictive Eating, External Eating, and Emotional Eating were assessed at child age 14 years by the Dutch Eating Behavior Questionnaire (DEBQ) [@vanstrienDutchEatingBehavior1986]. Restrained eating addressed purposefully restricting intake regarding weight concerns. External eating addressed the likelihood of a participant eating due to external stimuli like the sight and smell of the food, regardless of the participant's hunger level. Finally, emotional eating addressed how often the participant ate excessively when they experienced different emotional states.
 
 ### Scoring
 
+<<<<<<< HEAD
+Depending on the phrasing of the items, responses were either asked on a scale of 'Yes, usually want to eat more' (1), 'Sometimes want to eat more' (2), or 'No, not at all' (3) or on a scale of 'Never' (1), 'Occasionally' (2), 'Sometimes' (3), or 'Frequently' (4).
+=======
 Depending on the phrasing of the items, responses were either asked on a scale of 'Yes, usually want to eat more' (1), 'Sometimes want to eat more' (2), or 'No, not at all' (3) or on a scale of 'Never' (1), 'Occasionally' (2), 'Sometimes' (3), or 'Frequently' (4). Scores are summed with greater scores indicating a greater likelihood of engagement with restrained eating, external eating, or emotional eating.
+>>>>>>> 71a47610f9f3c082e171c9305315dcf48969c7cc
 
 ### Key Variables
 
-`restraint_sum.167` Sum of the restrained eating items at age 14
+`restraint_sum_14` Sum of the restrained eating items at age 14
 
-`restraint_sum.167.na` Percent of variables missing from the restrained eating subscale
+`restraint_sum_14_an`Percent of variables missing from the restrained eating subscale
 
-`ext_eat_sum.167` Sum of the external eating items at age 14
+`ext_eat_sum_14` Sum of the external eating items at age 14
 
-`ext_eat_sum.167.na` Percent of variables missing from the external eating subscale
+`ext_eat_sum_14_an` Percent of variables missing from the external eating subscale
 
-`emo_eat_sum.167` Sum of the emotional eating items at age 14
+`emo_eat_sum_14` Sum of the emotional eating items at age 14
 
-`emo_eat_sum.167.na` Percent of variables missing from the emotional eating subscale
+`emo_eat_sum_14_an` Percent of variables missing from the emotional eating subscale
 
-`emo_eat_sum_d.167` Sum of dichotomous responses for emotional eating items
+`emo_eat_sum_d_14` Sum of dichotomous responses for emotional eating items
 
-`emo_eat_sum_d.167.na` Percent of variables missing from the dichotomous emotional eating subscale
+`emo_eat_sum_d_14_an`Percent of variables missing from the dichotomous responses for emotional eating items
 
 ## Shape and Weight Concern
 
-Shape and Weight concern were assessed at age 14 using items from the McNight Risk Factor Survey, which assesses risk and protective factors for the development of eating disorders in preadolescence and adolescent girls [@shisslakDevelopmentEvaluationMcKnight1999]. The two items taken from the McKnight Survey were:
+Shape and Weight concern were assessed at age 14 using items from the McNight Risk Factor Survey, which assesses risk and protective factors for the development of eating disorders in preadolescence and adolescent girls [@shisslakDevelopmentEvaluationMcKnight1999]. The three items taken from the McKnight Survey were:
 
 1.  'In the past year, how happy have you been with the way your body looks?'
 
 2.  'In the past year, how much has your weight made a difference to how you feel about yourself?'
 
+3.  'In the past year, how much have you worried about gaining a little weight (as little as 1 kilo)?'
+
 ### Scoring
 
-A 4-point Likert scale was used (from 'very unhappy' (1) or 'not at all' (1) to 'very happy' (4) or 'a lot/all the time' (4)) to assess weight and shape concern. The two questions were summed to generate a continuous score.
+<<<<<<< HEAD
+Four responses on a 4-point Likert scale were used (from 'very unhappy' (1) or 'not at all' (1) to 'very happy' (4) or 'a lot/all the time' (4)). The three questions were summed to generate a continuous score.
+=======
+Three responses on a 4-point Likert scale were used (from 'very unhappy' (1) or 'not at all' (1) to 'very happy' (4) or 'a lot/all the time' (4)). The three questions were summed to generate a continuous score.
+>>>>>>> 71a47610f9f3c082e171c9305315dcf48969c7cc
 
 ### Key Variables
 
-`wt_shape_concern.167` Continuous sum of weight and shape concern items at age 14
+`wt_shape_concern_14` Sum of weight and shape concern items at age 14
 
-`wt_shape_concern.167.na` Percent of variables missing from the weight and shape items
+`wt_shape_concern_14_an` Percent of variables missing from the shape and weight concern scale
 
 ## Body Dissatisfaction
 
+<<<<<<< HEAD
+Body Dissatisfaction was assessed at ages 14, 18, and 24. An 11-item scale adapted from the satisfaction and dissatisfaction with body parts scale [@sticeProspectiveTestDualpathway2001], which has been used in several previous studies involving the ALSPAC Cohort [@bornioliAdolescentBodyDissatisfaction2019; @bornioliBodyDissatisfactionPredicts2021; @schaumbergAnxietyDisorderSymptoms2019; @schaumbergProspectiveAssociationsChildhood2021], was given at Wave 14. Among the 11 items, one item differs between the sexes (satisfaction with 'breasts' is specified for girls and 'build' for boys). Two items address overall body satisfaction with weight and figure, and the remaining items evaluate satisfaction with specific body parts.
+=======
 Body Dissatisfaction was assessed at ages 14, 18, and 24. An 11-item scale adapted from the satisfaction and dissatisfaction with body parts scale [@sticeProspectiveTestDualpathway2001], which has been used in several previous studies involving the ALSPAC Cohort ([@bornioliAdolescentBodyDissatisfaction2019]; [@bornioliBodyDissatisfactionPredicts2021]; [@schaumbergAnxietyDisorderSymptoms2019]; [@schaumbergProspectiveAssociationsChildhood2021]), was given at Wave 14. Among the 11 items, one item differs between the sexes (satisfaction with 'breasts' is specified for girls and 'build' for boys). Two items address overall body satisfaction with weight and figure, and the remaining items evaluate satisfaction with specific body parts.
+>>>>>>> 71a47610f9f3c082e171c9305315dcf48969c7cc
 
 Participants were not asked about body satisfaction at age 16. At Wave 18 and 24, participants completed 1 item that addressed happiness levels regarding weight and shape in the past year.
 
 ### Scoring
 
+<<<<<<< HEAD
+At age 14, responses are graded on a 5-point Likert scale from 'Extremely Satisfied' (1) to 'Extremely Dissatisfied' (5). Body dissatisfaction was scored using the mean of all 11 items, with higher scores indicating greater body dissatisfaction.
+
+At age 18, participants were presented with four responses ranging from 'Very unhappy' (1) to 'Very happy' (4). At age 24, participants were given 5 response options ranging from 'Not at all happy' (1) to 'completely happy' (5).
+=======
 At age 14, responses are graded on a 5-point Likert scale from 'Extremely Satisfied' (1) to 'Extremely Dissatisfied' (5).
 
 At age 18, participants were presented with four responses ranging from 'Very unhappy' (1) to 'Very happy' (4). At age 24, participants were given 5 response options ranging from 'Not at all happy' (1) to 'completely happy' (5).
 
 Body dissatisfaction was scored using the mean of all 11 items, with higher scores indicating greater body dissatisfaction.
+>>>>>>> 71a47610f9f3c082e171c9305315dcf48969c7cc
 
 ### Key Variables
 
-`body_sat_mean.167` Body dissatisfaction mean score at age 14
+`body_sat_mean_14` Body dissatisfaction mean score at age 14
 
-`body_sat_mean.167.na` Percent of variables missing from the body dissatisfaction measure at age 14
-
-`body_sat.222` How happy respondent has been with way body looks in past year at age 18
-
-`body_sat.288` Degree respondent has been happy with way their body looks or weighs at age 24
+`body_sat_mean_14_an` Percent of variables missing from the body dissatisfaction measure at age 14
 
 ## Dieting
 
@@ -275,25 +292,17 @@ The participant also answers how many pounds they lost while on to the diet(s) a
 
 ### Key Variables
 
-`diet_freq.167` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 14
+`diet_freq_14` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 14
 
-`diet_length.167` Length of time respondent was on a diet at age 14
+`diet_length_14` Time respondent was on a diet at age 14
 
-`diet_freq.198` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
+`diet_freq_16` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
 
-`diet_length.198` Length of time respondent was on a diet at age 16
+`diet_length_16` Time respondent was on a diet at age 16
 
-`diet_lost.198` How much weight respondent lost on diet at age 16
+`diet_lost_16` Weight the respondent lost due to diet at age 16
 
-`diet_gain.198` How much weight (if any) respondent gained back after diet at age 16
-
-`diet_freq.222` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 18
-
-`diet_length.222` Length of time respondent was on a diet at age 18
-
-`diet_lost.222` How much weight respondent lost on diet at age 18
-
-`diet_gain.222` How much weight (if any) respondent gained back after diet at age 18
+`diet_regain_16` Weight the respondent gained back, if applicable, after diet at age 16
 
 ## Fear of Weight Gain
 
@@ -301,15 +310,11 @@ Fear of weight gain was assessed at Wave 14 and Wave 24 via a single item asking
 
 ### Scoring
 
-At age 14, participants scored their fear of weight gain on a 4-point Likert response scale: 'Not at all' (1), 'A little' (2), 'A lot' (3), and 'All the time' (4).
-
-At age 24, participants scored their fear of weight gain on a 4-point Likert response scale: 'Not at all' (1), 'A little' (2), 'A lot' (3), and 'Pretty much all the time' (4).
+Participants scored their fear of weight gain on a 4-point Likert response scale: 'Not at all' (0), 'A little' (1), 'A lot' (2), and 'All the time' (3).
 
 ### Key Variables
 
-`fear_wtgain.167` Degree to which respondent has worried about gaining a little weight in the past year at age 14
-
-`fear_wtgain.288` Degree to which respondent has worried about gaining a little weight in the past year at age 24
+`fear_wtgain_14` Respondent's fear of weight gain at age 14
 
 ## Weight Intentions, Perception, and Valuation
 
@@ -329,15 +334,11 @@ Weight valuation was scored on a 5-point Likert scale from 'Not at all' (1) to '
 
 ### Key Variables
 
-`wt_intent.167` Respondent's intent with weight at age 14
+`wt_intent_18` Respondent's intent with weight at age 18
 
-`wt_perception.167` Description of respondent's current weight at age 14
+`wt_perception_18` Description of respondent's current weight at age 18
 
-`wt_intent.222` Respondent's intent with weight at age 18
-
-`wt_perception.222` Description of respondent's current weight at age 18
-
-`wt_valuation.222` Degree to which respondent's weight has made difference to how feel about self in past year at age 18
+`wt_valuation_18` Degree to which respondent's weight has made difference to how feel about self in past year at age 18
 
 ## Feeling Fat
 
@@ -349,7 +350,7 @@ Response options were 'Never' (0), 'A little' (1), 'Sometimes' (2), 'A lot' (3),
 
 ### Key Variables
 
-`feel_fat.288` How much respondent has 'felt fat' in the past year at age 24
+`feel_fat_24` How much respondent has 'felt fat' in the past year at age 24
 
 <!--chapter:end:04-ed-cognitions.Rmd-->
 
@@ -379,7 +380,7 @@ Based on the sum score, two additional variables based on the sum score. The fir
 
 `binge_sub_criteria_met.x` - dichotomous variable indicating whether subthreshold binge eating disorder symptoms are met
 
-`binge_criteria_met.x` - dichotomous variable indicating whether full threshold binge eating disorder symtpoms are met
+`binge_criteria_met.x` - dichotomous variable indicating whether full threshold binge eating disorder symptoms are met
 
 ## Purging
 
@@ -436,19 +437,29 @@ Exercise groups over time are defined for descriptive analyses and transition st
 
 ### Background
 
-Fasting was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at age 14, 16 and 18. Participants reported their frequency of fasting to lose or avoid gaining weight. Participants that endorsed any fasting at age 14, 16, or 18 were coded as coded as 'yes' to fasting for weight loss.
+Fasting was evaluated using questions derived from the Youth Risk Behavior Surveillance Scale [@kannYouthRiskBehavior1996] at age 14, 16, 18, and 24. Participants reported their frequency of fasting to lose or avoid gaining weight. Participants that endorsed any fasting at age 14, 16, 18, or 24 were coded as coded as 'yes' to fasting for weight loss.
 
 ### Scoring
 
+A response of yes '1' to any instances of fasting at any age resulted in follow up questions to determine the frequency of fasting.
+
 ### Key Variables
+
+`fasting_any.167`- fasting at age 14 - any reported
+
+`fasting_monthly.167`- fasting at age 14 - at least once per month
+
+`fasting_monthly.weekly`- fasting at age 14 - at least once per week
+
+??
 
 <!--chapter:end:05-ed-behaviors.Rmd-->
 
-# Eating Disorder Diagnoses
+### Eating Disorder Diagnoses
 
-Eating disorder diagnoses (AN, BN,BED, BN-Spectrum [Purging disorder and subclinical BN], BED-spectrum [subclinical BED], and Restrictive spectrum [ED cognitions and restrictive ED behaviors in the absence of regular binge eating, purging, or low weight]) were derived at each age (14, 16, 18, and 24) using best available measures and following steps outlined in @micaliAdolescentEatingDisorders2015, with minor changes (cognitive measures added to criteria as available; subclinical and OSFED categories collapsed to reflect BN, BED, and Restrictive Spectrum ED pathology). Scoring algorithms reflect DSM-5 criteria aligned as well as possible with available data that can be harmonized across assessment points [@americanpsychiatricassociationDiagnosticStatisticalManual2013]. While the majority of cognitive and and behavioral ED features are self-reported, parent-report of restrictive eating was included as an indicator at ages 14 and 16 years as adolescents tend to under-report AN symptoms [@houseDiagnosingEatingDisorders2008]. Table \@ref(fig:alspac-dx-table) outlines full criteria used for each diagnosis in the current project.
+Eating disorder diagnoses (AN, BN,BED, BN-Spectrum [Purging disorder and subclinical BN], BED-spectrum [subclinical BED], and Restrictive spectrum [ED cognitions and restrictive ED behaviors in the absence of regular binge eating, purging, or low weight]) were derived at each age (14, 16, 18, and 24) using best available measures and following steps outlined in @micaliAdolescentEatingDisorders2015, with minor changes (cognitive measures added to criteria as available; subclinical and OSFED categories collapsed to reflect BN, BED, and Restrictive Spectrum ED pathology). Scoring algorithms reflect DSM-5 criteria aligned as well as possible with available data that can be harmonized across assessment points [@americanpsychiatricassociationDiagnosticStatisticalManual2013]. While the majority of cognitive and and behavioral ED features are self-reported, parent-report of restrictive eating was included as an indicator at ages 14 and 16 years as adolescents tend to under-report AN symptoms [@houseDiagnosingEatingDisorders2008]. Table \@ref(fig:alspac-dx-table) outlines full criteria used for each diagnosis in the current study.
 
-```{r alspac-dx-table, fig.cap= 'Diagnostic Criteria Assessed Across Age', out.width = '160%', echo = FALSE}
+```{r alspac-dx-table, fig.cap= 'Diagnostic Criteria Assessed Across Age'}
 knitr::include_graphics('figs/ALSPAC_Dx_Table.png')
 ```
 
@@ -484,6 +495,7 @@ BMIz scores prior to age 18 are noted as:
 
 `BMIz_sr.X` BMIz obtained by self- or parent-reported height and weight where X = age in years at time when assessment was targeted to be completed, rounded to one tenth.  
 
+`BMI_bestavaial.X` Best available BMI over the previous 12 months of age
 
 
 <!--chapter:end:07-anthropomety.Rmd-->
@@ -500,7 +512,7 @@ Total physical activity was measured as the total counts per minute (CPM) over t
 
 #### Moderate-to-Vigorous Physical Activity (MVPA)
 
-MVPA measures the average amount of time spent above a CPM cutoff, which differs across age. At ages 11.5, 13.5 and 15.5 A value of \>= 3600 CPM was originally used to define MVPA at the time of the data collection [@mattocksUseAccelerometersLarge2008]. More recently, following Evenson et. al. [@evensonCalibrationTwoObjective2008], who calculated a lower cutpoint of \>=2296. Both sets of data were included in analysis. At age 24 MVPA cutoff was established at \>2020 cpm [@troianoPhysicalActivityUnited2008].
+MVPA measures the average amount of time spent above a CPM cutoff, which differs across age. At ages 11.5, 13.5 and 15.5 A value of \>= 3600 CPM was originally used to define MVPA at the time of the data collection, with 3600 denoting the cutoff for moderate acttivity and 6200 denoting the cutoff for vigorous. [@mattocksUseAccelerometersLarge2008]. More recently, following Evenson et. al. [@evensonCalibrationTwoObjective2008], who calculated a lower cutpoint of \>=2296 for moderate and \>= 4012 for vigorous. Both sets of data were included in analysis. At age 24 moderate cutoff was established at \>2020 cpm and vigorous cutoff was established as \>= 6999 cpm [@troianoPhysicalActivityUnited2008].
 
 ## Fitness 
 

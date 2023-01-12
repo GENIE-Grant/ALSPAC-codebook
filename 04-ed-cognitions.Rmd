@@ -199,11 +199,27 @@ The participant also answers how many pounds they lost while on to the diet(s) a
 
 `diet_freq_16` frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
 
+<<<<<<< HEAD
 `diet_length_16` Time respondent was on a diet at age 16
 
 `diet_lost_16` Weight the respondent lost due to diet at age 16
 
 `diet_regain_16` Weight the respondent gained back, if applicable, after diet at age 16
+=======
+`diet_length.198.2` Length of time respondent was on a diet at age 16
+
+`diet_lost.198.2` How much weight respondent lost on diet at age 16
+
+`diet_gain.198.2` How much weight (if any) respondent gained back after diet at age 16
+
+`diet_freq.222` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 18
+
+`diet_length.222.2` Length of time respondent was on a diet at age 18
+
+`diet_lost.222.2` How much weight respondent lost on diet at age 18
+
+`diet_gain.222.2` How much weight (if any) respondent gained back after diet at age 18
+>>>>>>> parent of 4ae069d (commit)
 
 ## Fear of Weight Gain
 
