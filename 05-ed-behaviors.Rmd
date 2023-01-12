@@ -24,7 +24,7 @@ Based on the sum score, two additional variables based on the sum score. The fir
 
 `binge_sub_criteria_met.x` - dichotomous variable indicating whether subthreshold binge eating disorder symptoms are met
 
-`binge_criteria_met.x` - dichotomous variable indicating whether full threshold binge eating disorder symtpoms are met
+`binge_criteria_met.x` - dichotomous variable indicating whether full threshold binge eating disorder symptoms are met
 
 ## Purging
 
