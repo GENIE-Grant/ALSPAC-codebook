@@ -10,7 +10,7 @@ Total physical activity was measured as the total counts per minute (CPM) over t
 
 #### Moderate-to-Vigorous Physical Activity (MVPA)
 
-MVPA measures the average amount of time spent above a CPM cutoff, which differs across age. At ages 11.5, 13.5 and 15.5 A value of \>= 3600 CPM was originally used to define MVPA at the time of the data collection, with 3600 denoting the cutoff for moderate acttivity and 6200 denoting the cutoff for vigorous. [@mattocksUseAccelerometersLarge2008]. More recently, following Evenson et. al. [@evensonCalibrationTwoObjective2008], who calculated a lower cutpoint of \>=2296 for moderate and \>= 4012 for vigorous. Both sets of data were included in analysis. At age 24 moderate cutoff was established at \>2020 cpm and vigorous cutoff was established as \>= 6999 cpm [@troianoPhysicalActivityUnited2008].
+MVPA measures the average amount of time spent above a CPM cutoff, which differs across age. At ages 11.5, 13.5 and 15.5 A value of \>= 3600 CPM was originally used to define MVPA at the time of the data collection [@mattocksUseAccelerometersLarge2008]. More recently, following Evenson et. al. [@evensonCalibrationTwoObjective2008], who calculated a lower cutpoint of \>=2296. Both sets of data were included in analysis. At age 24 MVPA cutoff was established at \>2020 cpm [@troianoPhysicalActivityUnited2008].
 
 ## Fitness 
 
