@@ -173,7 +173,7 @@ Items are rated on a 5-point Likert scale ranging from 'Strongly Disagree' (0) t
 
 `ti_mean.167` Mean thin-ideal internalization score at age 14
 
-`ti_mean.167.na` Percent of variables missing from the thin-ideal internalization measure
+`ti_mean.167_NAs` Percent of variables missing from the thin-ideal internalization measure
 
 ## Pressure to Lose Weight/Pressure to Increase Muscle
 
@@ -187,11 +187,11 @@ Response options for both pressure to lose weight and increase muscle were 'Not 
 
 `pressure_lose_sum.167` Sum of pressure to lose weight scale at age 14
 
-`pressure_lose_sum.167.na` Percent of variables missing from the pressure to lose weight scale
+`pressure_lose_sum.167_NAs` Percent of variables missing from the pressure to lose weight scale
 
 `pressure_musc_sum.167` Sum of pressure to increase muscle scale at age 14
 
-`pressure_musc_sum.167.na` Percent of variables missing from the pressure to gain muscle scale
+`pressure_musc_sum.167_NAs` Percent of variables missing from the pressure to gain muscle scale
 
 ## Restrained Eating, External Eating, and Emotional Eating
 
@@ -205,19 +205,19 @@ Depending on the phrasing of the items, responses were either asked on a scale o
 
 `restraint_sum.167` Sum of the restrained eating items at age 14
 
-`restraint_sum.167.na` Percent of variables missing from the restrained eating subscale
+`restraint_sum.167_NAs` Percent of variables missing from the restrained eating subscale
 
 `ext_eat_sum.167` Sum of the external eating items at age 14
 
-`ext_eat_sum.167.na` Percent of variables missing from the external eating subscale
+`ext_eat_sum.167_NAs` Percent of variables missing from the external eating subscale
 
 `emo_eat_sum.167` Sum of the emotional eating items at age 14
 
-`emo_eat_sum.167.na` Percent of variables missing from the emotional eating subscale
+`emo_eat_sum.167_NAs` Percent of variables missing from the emotional eating subscale
 
 `emo_eat_sum_d.167` Sum of dichotomous responses for emotional eating items
 
-`emo_eat_sum_d.167.na` Percent of variables missing from the dichotomous emotional eating subscale
+`emo_eat_sum_d.167_NAs` Percent of variables missing from the dichotomous emotional eating subscale
 
 ## Shape and Weight Concern
 
@@ -235,7 +235,7 @@ A 4-point Likert scale was used (from 'very unhappy' (1) or 'not at all' (1) to 
 
 `wt_shape_concern.167` Continuous sum of weight and shape concern items at age 14
 
-`wt_shape_concern.167.na` Percent of variables missing from the weight and shape items
+`wt_shape_concern.167_NAs` Percent of variables missing from the weight and shape items
 
 ## Body Dissatisfaction
 
@@ -255,7 +255,7 @@ Body dissatisfaction was scored using the mean of all 11 items, with higher scor
 
 `body_sat_mean.167` Body dissatisfaction mean score at age 14
 
-`body_sat_mean.167.na` Percent of variables missing from the body dissatisfaction measure at age 14
+`body_sat_mean.167_NAs` Percent of variables missing from the body dissatisfaction measure at age 14
 
 `body_sat.222` How happy respondent has been with way body looks in past year at age 18
 
@@ -277,23 +277,23 @@ The participant also answers how many pounds they lost while on to the diet(s) a
 
 `diet_freq.167` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 14
 
-`diet_length.167` Length of time respondent was on a diet at age 14
+`diet_length.167.2` Length of time respondent was on a diet at age 14
 
 `diet_freq.198` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 16
 
-`diet_length.198` Length of time respondent was on a diet at age 16
+`diet_length_2.198` Length of time respondent was on a diet at age 16
 
-`diet_lost.198` How much weight respondent lost on diet at age 16
+`diet_lost_2.198` How much weight respondent lost on diet at age 16
 
-`diet_gain.198` How much weight (if any) respondent gained back after diet at age 16
+`diet_wt_gain_2.198` How much weight (if any) respondent gained back after diet at age 16
 
 `diet_freq.222` Frequency respondent went on a diet to lose weight or keep from gaining weight during the past year at age 18
 
-`diet_length.222` Length of time respondent was on a diet at age 18
+`diet_length_2.222` Length of time respondent was on a diet at age 18
 
-`diet_lost.222` How much weight respondent lost on diet at age 18
+`diet_wt_loss_2.222` How much weight respondent lost on diet at age 18
 
-`diet_gain.222` How much weight (if any) respondent gained back after diet at age 18
+`diet_wt_gain_2.222` How much weight (if any) respondent gained back after diet at age 18
 
 ## Fear of Weight Gain
 
