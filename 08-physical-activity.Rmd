@@ -12,6 +12,58 @@ Total physical activity was measured as the total counts per minute (CPM) over t
 
 MVPA measures the average amount of time spent above a CPM cutoff, which differs across age. At ages 11.5, 13.5 and 15.5 A value of \>= 3600 CPM was originally used to define MVPA at the time of the data collection [@mattocksUseAccelerometersLarge2008]. More recently, following Evenson et. al. [@evensonCalibrationTwoObjective2008], who calculated a lower cutpoint of \>=2296. Both sets of data were included in analysis. At age 24 MVPA cutoff was established at \>2020 cpm [@troianoPhysicalActivityUnited2008].
 
-## Fitness 
+#### Free-living activity variables
+
+| MVPA Cutoff | Age |     Variable Name     |                                     Variable Lable                                      |
+|:---------:|:---------:|:---------:|:-------------------------------------:|
+|    2296     | 11  |      vd_2296.128      |  Number of valid days recorded at age 11 (\>= 600 minutes recorded) (MVPA \>=2296 CPM)  |
+|             |     | weartime_m\_2296.128  |         Mean number of minutes worn per valid day at age 11 (MVPA \>= 2296 CPM)         |
+|             |     | mvpa_min_m\_2296.128  |              Mean MVPA minutes per valid day at age 11 (MVPA \>= 2296 CPM)              |
+|             |     |  vig_min_m\_2296.128  |         Mean vigerous minutes over all valid days at age 11 (MVPA \>= 2296 CPM)         |
+|             |     |    cpm_m\_2296.128    |        Mean counts per minute over all valid days at age 11 (MVPA \>= 2296 CPM)         |
+|             |     |  sed_min_m\_2296.128  |           Mean sedentary minutes per valid day at age 11 (MVPA \>= 2296 CPM)            |
+|             | 13  |   vd_2296_2296.154    | Number of valid days recorded at age 13 (\>= 600 minutes recorded) (MVPA \>= 2296 CPM)  |
+|             |     | mvpa_min_m\_2296.154  |              Mean MVPA minutes per valid day at age 13 (MVPA \>= 2296 CPM)              |
+|             |     |  vig_min_t\_2296.154  |        Total vigerous minutes over all valid days at age 13 (MVPA \>= 2296 CPM)         |
+|             |     |    cpm_m\_2296.154    |        Mean counts per minute over all valid days at age 13 (MVPA \>= 2296 CPM)         |
+|             |     |  sed_min_m\_2296.154  |           Mean sedentary minutes per valid day at age 13 (MVPA \>= 2296 CPM)            |
+|             | 15  |      vd_2296.186      | Number of valid days recorded at age 15 (\>= 600 minutes recorded) (MVPA \>= 2296 CPM)  |
+|             |     | weartime_m\_2296.186  |         Mean number of minutes worn per valid day at age 15 (MVPA \>= 2296 CPM)         |
+|             |     | mvpa_min_m\_2296.186  |              Mean MVPA minutes per valid day at age 15 (MVPA \>= 2296 CPM)              |
+|             |     |  vig_min_t\_2296.186  |        Total vigerous minutes over all valid days at age 15 (MVPA \>= 2296 CPM)         |
+|             |     |    cpm_m\_2296.186    |        Mean counts per minute over all valid days at age 15 (MVPA \>= 2296 CPM)         |
+|             |     |  sed_min_m\_2296.186  |           Mean sedentary minutes per valid day at age 15 (MVPA \>= 2296 CPM)            |
+|    3600     | 11  |      vd_3600.128      | Number of valid days recorded at age 11 (\>= 600 minutes recorded) (MVPA \>= 3600 CPM)  |
+|             |     | mvpa_min_m\_3600.128  |              Mean MVPA minutes per valid day at age 11 (MVPA \>= 3600 CPM)              |
+|             |     |  vig_min_m\_3600.128  |         Mean vigerous minutes over all valid days at age 11 (MVPA \>= 3600 CPM)         |
+|             |     |  mod_min_m\_3600.128  |         Mean moderate minutes over all valid days at age 11 (MVPA \>= 3600 CPM)         |
+|             |     | mvpa_block5_3600.128  |  Number of 5-9 minute blocks in MVPA over all valid days at age 11 (MVPA \>= 3600 CPM)  |
+|             |     | mvpa_block10_3600.128 | Number of 10-19 minute blocks in MVPA over all valid days at age 11 (MVPA \>= 3600 CPM) |
+|             |     | mvpa_block20_3600.128 |  Number of 20+ minute blocks in MVPA over all valid days at age 11 (MVPA \>= 3600 CPM)  |
+|             |     |    cpm_m\_3600.128    |                    Mean CPM per valid day at age 11 (MVPA \>= 3600)                     |
+|             | 13  |      vd_3600.154      | Number of valid days recorded at age 13 (\>= 600 minutes recorded) (MVPA \>= 3600 CPM)  |
+|             |     | mvpa_min_m\_3600.154  |              Mean MVPA minutes per valid day at age 13 (MVPA \>= 3600 CPM)              |
+|             |     |  mod_min_m\_3600.154  |         Mean moderate minutes over all valid days at age 13 (MVPA \>= 3600 CPM)         |
+|             |     |  vig_min_m\_3600.154  |         Mean vigerous minutes over all valid days at age 13 (MVPA \>= 3600 CPM)         |
+|             |     | mvpa_block5_3600.154  |  Number of 5-9 minute blocks in MVPA over all valid days at age 13 (MVPA \>= 3600 CPM)  |
+|             |     | mvpa_block10_3600.154 | Number of 10-19 minute blocks in MVPA over all valid days at age 13 (MVPA \>= 3600 CPM) |
+|             |     | mvpa_block20_3600.154 |  Number of 20+ minute blocks in MVPA over all valid days at age 13 (MVPA \>= 3600 CPM)  |
+|             |     |    cpm_m\_3600.154    |                    Mean CPM per valid day at age 13 (MVPA \>= 3600)                     |
+|             | 15  |      vd_3600.186      | Number of valid days recorded at age 15 (\>= 600 minutes recorded) (MVPA \>= 3600 CPM)  |
+|             |     | mvpa_min_m\_3600.186  |              Mean MVPA minutes per valid day at age 15 (MVPA \>= 3600 CPM)              |
+|             |     |  mod_min_m\_3600.186  |         Mean moderate minutes over all valid days at age 15 (MVPA \>= 3600 CPM)         |
+|             |     |  vig_min_m\_3600.186  |         Mean vigerous minutes over all valid days at age 15 (MVPA \>= 3600 CPM)         |
+|             |     | mvpa_block5_3600.186  |  Number of 5-9 minute blocks in MVPA over all valid days at age 15 (MVPA \>= 3600 CPM)  |
+|             |     | mvpa_block10_3600.186 | Number of 10-19 minute blocks in MVPA over all valid days at age 15 (MVPA \>= 3600 CPM) |
+|             |     | mvpa_block20_3600.186 |  Number of 20+ minute blocks in MVPA over all valid days at age 15 (MVPA \>= 3600 CPM)  |
+|             |     |    cpm_m\_3600.186    |                    Mean CPM per valid day at age 15 (MVPA \>= 3600)                     |
+|    2020     | 24  |      vd_2020.288      | Number of valid days recorded at age 24 (\>= 600 minutes recorded) (MVPA \>= 2020 CPM)  |
+|             |     | valid_min_m\_2020.288 |     Average number of valid minutes per dat recorded at age 24 (MVPA \>= 2020 CPM)      |
+|             |     | mvpa_min_m\_2020.288  |              Mean MVPA minutes per valid day at age 24 (MVPA \>= 2020 CPM)              |
+|             |     |    cpm_m\_2020.288    |                 Mean CPM over all valid days at age 24 (MVPA \>= 2020)                  |
+|             |     |  sed_min_t\_2020.288  |          Total sedintary minutes over all valid days at age 24 (MVPA \>= 2020)          |
+|             |     |  sed_min_m\_2020.288  |          Mean sedintary minutes over all valid days at age 24 (MVPA \>= 2020)           |
+
+## Fitness
 
 Fitness was assessed at xxx exercise sessions xxx....
