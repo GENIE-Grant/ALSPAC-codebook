@@ -74,3 +74,4 @@ child-ethnicity
 parent-ethnicity
 maternal-eating-disorder-assessments
 genomic-data
+free-living-activity-variables
