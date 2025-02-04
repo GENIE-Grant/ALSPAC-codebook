@@ -3,6 +3,7 @@ fig:alspac-dx-table
 tab:BMI-table
 data-dictionary-for-alspac-data-r01mh134039
 project-aims
+ks-note-currently-copied-from-another-project-as-an-example---will-need-to-be-updated-to-reflect-the-aims-of-this-project
 the-alspac-cohort
 scoring
 cognitive-eating-disorder-features
