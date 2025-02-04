@@ -66,6 +66,7 @@ physical-activity
 free-living-activity
 activity-counts-per-minute-cpm
 moderate-to-vigorous-physical-activity-mvpa
+free-living-activity-variables
 fitness
 sociodemographic-variables
 parent-education
@@ -74,4 +75,3 @@ child-ethnicity
 parent-ethnicity
 maternal-eating-disorder-assessments
 genomic-data
-free-living-activity-variables
