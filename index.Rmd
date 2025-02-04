@@ -1,6 +1,6 @@
 --- 
-title: "Data Dictionary for ALSPAC data: K01MH123914"
-author: "Katherine Schaumberg, Max Frank, Sarah Niemi, & the EMBARK Lab"
+title: "Data Dictionary for ALSPAC data: R01MH134039"
+author: "Katherine Schaumberg"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,13 +9,13 @@ documentclass: book
 bibliography: ["ALSPAC_bookdown.bib", "packages.bib"]
 csl: academic-medicine.csl
 link-citations: true
-github-repo: embark-lab/ALSPAC-bookdown
-description: "This book includes general information about the ALSPAC sample and detailed information on measures used and scoring procedures for the project -- 'Driven Exercise in eating disorders - A combined genetic and longitudinal epidemiological investigation' -- funded by K01MH123914"
+github-repo: GENIE-Grant/ALSPAC-codebook
+description: "This book includes general information about the ALSPAC sample and detailed information on measures used and scoring procedures for the project -- 'Integrating developmental and genomic approaches to identify early trajectories of eating and internalizing disorder symptoms' -- funded by R01MH134039"
 ---
 
-# Data Dictionary for ALSPAC data: K01MH123914
+# Data Dictionary for ALSPAC data: R01MH134039
 
-This book contains information on data management and scoring for ALSPAC eating disorder and associated variables, maintained by the [EMBARK Lab](https://embark.psychiatry.wisc.edu). This data dictionary is specifically designed for the project - K01MH123914 - "Driven Exercise in Eating Disorders: A Combined Genetic and Longitudinal Epidemiological Investigation. 
+This book contains information on data management and scoring for ALSPAC eating disorder and associated variables. This data dictionary is specifically designed for the project - R01MH134039 - 'Integrating developmental and genomic approaches to identify early trajectories of eating and internalizing disorder symptoms'
 
 Data in this dictionary represents only variables obtained and cleaned for this project -- the complete set of raw variables available from the ALSPAC cohort can be found in the larger ALSPAC [data dictionary](http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/). 
 
